@@ -12,5 +12,6 @@ Updated: 2026-10-08T00:57:43+00:00. Working nodes: 103.
 | clash.yaml | [Download](https://fastly.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/clash.yaml) | [Download](https://cdn.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/clash.yaml) | [Download](https://yuesuizhengrong.github.io/proxy-subscriptions/clash.yaml) |
 | v2ray.txt | [Download](https://fastly.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/v2ray.txt) | [Download](https://cdn.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/v2ray.txt) | [Download](https://yuesuizhengrong.github.io/proxy-subscriptions/v2ray.txt) |
 
-Updates run every three hours. CDN caches are refreshed after each publication.
+Updates run every three hours. Prefer GitHub Pages for the freshest published output.
+CDN cache refreshes are requested after publication, but mirrors may lag.
 Access depends on your carrier and region; try another address if one fails.
