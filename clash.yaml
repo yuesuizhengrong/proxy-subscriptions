@@ -1,35 +1,6 @@
 mixed-port: 7890
 mode: rule
 proxies:
-- type: vless
-  server: 104.26.13.54
-  port: 8443
-  udp: true
-  network: ws
-  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
-  tls: true
-  servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
-  alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  ws-opts:
-    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443
-    headers:
-      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
-  name: ❓Other_114|152KB/s|M003-260806 01
-- type: vless
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  network: ws
-  uuid: 142d1453-9cfe-4045-8e54-f3fb33342185
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lively-scene-744f.107-47a.workers.dev
-  name: 🇫🇷FR_305|104KB/s|M003-260806 01
 - client-fingerprint: chrome
   network: ws
   password: bpb-trojan
@@ -49,184 +20,6 @@ proxies:
     max-early-data: 2560
   name: 🇫🇷FR_3|464KB/s|M002-260618 01
 - type: vless
-  server: 172.67.171.191
-  port: 8080
-  udp: true
-  network: ws
-  uuid: 0b2ea024-3ffd-46a7-87ce-86cbb79d7a48
-  ws-opts:
-    path: /eyJqdW5rIjoiT3FNeW1sMVdGVHlvNTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-    headers:
-      Host: server18.peekconfig2.workers.dev
-  name: US美国(mibei77.com 米贝节点分享)
-- type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-lab-ac6d.caveyi8071.workers.dev
-  skip-cert-verify: true
-  udp: true
-  name: US美国(mibei77.com 米贝节点分享)_20
-- type: vless
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  network: ws
-  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
-  tls: true
-  servername: wild-math-3ef2.439.workers.dev
-  client-fingerprint: unsafe
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: wild-math-3ef2.439.workers.dev
-  name: 🇫🇷FR_130|633KB/s|M003-260806 01
-- type: vless
-  server: 104.21.23.72
-  port: 8880
-  udp: true
-  network: ws
-  uuid: a62a4c64-2270-4d41-828b-2591906c48ba
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-disk-a026.253-54b.workers.dev
-  name: 🇫🇷FR_254|427KB/s|B007-260618 01
-- type: vless
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  network: ws
-  uuid: 16586b3b-9e26-4fe9-b137-389ea48f088c
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: ancient-glade-34d6.6-07d.workers.dev
-  name: 🇫🇷FR_235|657KB/s|M003-260806 01
-- type: vless
-  server: 104.26.7.214
-  port: 8880
-  udp: true
-  network: ws
-  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
-  servername: young-wind-3c58.240-2ce.workers.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: young-wind-3c58.240-2ce.workers.dev
-  name: 🇫🇷FR_94|312KB/s|A004-260618 01
-- type: vless
-  server: 172.67.203.138
-  port: 8080
-  udp: true
-  network: ws
-  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
-  servername: 172.67.203.138
-  ws-opts:
-    path: /eyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
-    headers:
-      Host: server17.peekconfig1.workers.dev
-  name: 🇫🇷FR_448|411KB/s|T001-260618 01
-- type: vless
-  server: 104.26.13.31
-  port: 8080
-  udp: true
-  network: ws
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  servername: ip.sb
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-  name: 🇫🇷FR_378|178KB/s|M003-260806 01
-- type: vless
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  network: ws
-  uuid: f15a5586-23f6-453f-97f5-c301b949e699
-  ws-opts:
-    path: /
-    headers:
-      Host: mute-sunset-0849.40-aeb.workers.dev
-  name: 🇫🇷FR_20|225KB/s|A004-260618 01
-- type: vless
-  server: 188.114.97.3
-  port: 443
-  udp: true
-  network: ws
-  uuid: d6828805-5608-44d7-a44b-976d4c3ac2d0
-  tls: true
-  servername: 0LG3u92i0exN577l3Mc637Ycba3.SfgsfgSfGFSGSf-4630.wOrkeRS.dEv
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vl/5ibXbgAYxWzwbOtkXJWUtvKMKOYjh?ed
-    headers:
-      Host: 0lg3u92i0exn577l3mc637ycba3.sfgsfgsfgfsgsf-4630.workers.dev
-  name: 🇫🇷FR_220|973KB/s|M003-260806 01
-- type: vless
-  server: 91.206.71.8
-  port: 80
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
-  skip-cert-verify: false
-  udp: true
-  name: ❓未知丨yoyapai.com_1
-- type: vless
-  server: 185.148.104.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
-  skip-cert-verify: false
-  udp: true
-  name: ❓未知丨yoyapai.com_2
-- type: vless
-  server: 104.18.1.1
-  port: 443
-  udp: true
-  network: ws
-  uuid: 49c0ae46-767c-47d1-9703-8740e0c4b15a
-  tls: true
-  servername: FLAT-night-EDD0.hOsEin9saLEAZhuongOoYeH87.wOrkerS.DeV
-  alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  ws-opts:
-    path: /eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    headers:
-      Host: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
-  name: 🇫🇷FR_517|665KB/s|M003-260806 01
-- type: vless
-  server: 162.159.81.177
-  port: 80
-  udp: true
-  network: ws
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  ws-opts:
-    path: /eyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-  name: 🇫🇷FR_123|167KB/s|S001-260618 01
-- type: vless
   server: 104.16.106.213
   port: 8880
   udp: true
@@ -237,33 +30,6 @@ proxies:
     headers:
       Host: solitary-firefly-e2dc.495-398.workers.dev
   name: 🇫🇷FR_151|210KB/s 01
-- type: vless
-  server: 104.21.60.109
-  port: 2087
-  udp: true
-  network: ws
-  uuid: 89b3cbba-e6ac-4850-94af-061316b04020
-  tls: true
-  servername: LatE-fROst-9Da7.shOamENi5.wOrKERs.dEV
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vl/E3eI46wtKMBcpTzObh3meVYDVl?ed=2560
-    headers:
-      Host: late-frost-9da7.shoameni5.workers.dev
-  name: 🇫🇷FR_560|859KB/s|M003-260806 01
-- type: vless
-  server: 172.64.88.168
-  port: 8880
-  udp: true
-  network: ws
-  uuid: b4883d27-3151-4adf-92b1-841c0dccd1ea
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: damp-surf-aacf.296-8ed.workers.dev
-  name: 🇫🇷FR_102|976KB/s|C002-260622 01
 - type: vless
   server: 188.114.97.6
   port: 443
@@ -279,149 +45,6 @@ proxies:
       Host: solitary-firefly-e2dc.495-398.workers.dev
   name: 🇫🇷FR_53|633KB/s|M003-260806 01
 - type: vless
-  server: 104.17.178.154
-  port: 8880
-  udp: true
-  network: ws
-  uuid: a8c23fe7-d2bb-46ba-a14e-8847f1944642
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: billowing-fire-a10b.301-d6c.workers.dev
-  name: 🇫🇷FR_143|340KB/s|M003-260806 01
-- type: vless
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  network: ws
-  uuid: bfa3aaaf-41d3-4ec4-8453-e9827d7e7b30
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: crimson-mode-f8de.432-9e1.workers.dev
-  name: 🇫🇷FR_601|684KB/s|M003-260806 01
-- type: vless
-  server: skk.moe
-  port: 8880
-  udp: true
-  network: ws
-  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: tiny-lake-bbf1.369-766.workers.dev
-  name: 🇫🇷FR_18|237KB/s|F003-260618 01
-- type: vless
-  server: codecanyon.net
-  port: 8880
-  udp: true
-  network: ws
-  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: dawn-waterfall-6052.360-001.workers.dev
-  name: 🇫🇷FR_167|264KB/s|C002-260622 01
-- type: vless
-  server: skk.moe
-  port: 8880
-  udp: true
-  network: ws
-  uuid: 160ca353-676d-4b7f-a041-0289e388b865
-  servername: skk.moe
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: proud-cloud-7bdd.208-a52.workers.dev
-  name: 🇫🇷FR_646|1.0MB/s|A004-260618 01
-- type: vless
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime07.workers.dev
-  name: 🇺🇸US_113|97KB/s|V008-260618 01
-- type: vless
-  server: cf2.466688.xyz
-  port: 8880
-  udp: true
-  network: ws
-  uuid: c6c5ad2f-b4d5-450f-862f-341cebb7f9b5
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: empty-rain-1df4.332-633.workers.dev
-  name: 🇫🇷FR_670|951KB/s 01
-- type: vless
-  server: cf6.466688.xyz
-  port: 8880
-  udp: true
-  network: ws
-  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
-  servername: summer-snow-c151.320-3ef.workers.dev
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: summer-snow-c151.320-3ef.workers.dev
-  name: 🇫🇷FR_413|1009KB/s|A004-260618 01
-- type: vless
-  server: ccc.010304.xyz
-  port: 443
-  udp: true
-  network: ws
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 🇫🇷FR_365|596KB/s|M003-260806 01
-- type: vless
-  server: 172.64.156.111
-  port: 443
-  udp: true
-  network: ws
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-  tls: true
-  servername: cf.zhahui.de5.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: cf.zhahui.de5.net
-  name: 🇫🇷FR_730|2.5MB/s|F003-260618 01
-- server: 64.74.161.147
-  port: 17200
-  type: ss
-  cipher: aes-128-gcm
-  password: 1cbb3e347ee86e1980a7c731e9dd00a0
-  name: 🇺🇸US-64.74.161.147-0424
-- type: trojan
-  server: ez-3e9698.ezaccess1ec1f0c.workers.dev
-  port: 443
-  udp: true
-  network: ws
-  password: c0c17d1da2c2c9299d5094c8
-  servername: ez-3e9698.ezaccess1ec1f0c.workers.dev
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ws-opts:
-    path: /eyJqdW5rIjoiMDdteWJvazY4azJ3MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-  name: 🇫🇷FR_666|843KB/s|C002-260622 01
-- server: 108.181.0.177
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G5p6ww4o67HB
-  name: 🇺🇸US-108.181.0.177-0091
-- type: vless
   server: 104.26.4.2
   port: 443
   udp: true
@@ -436,142 +59,27 @@ proxies:
       Host: ccc.010304.xyz
   name: 🇫🇷FR_725|411KB/s|K001-260618 01
 - type: vless
-  server: 104.21.61.23
-  port: 2083
+  server: 188.114.97.6
+  port: 8080
   udp: true
   network: ws
-  uuid: 2730487f-0ed5-4f04-92d5-f95f9253d4f4
-  tls: true
-  servername: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ws
-    headers:
-      Host: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
-  name: 🇫🇷FR_196|304KB/s|C002-260622 01
-- type: vless
-  server: skk.moe
-  port: 8880
-  udp: true
-  network: ws
-  uuid: 2b5753cf-4d0a-4746-b63d-cd67a3de2ccc
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: crimson-hill-8061.166-dcf.workers.dev
-  name: 🇫🇷FR_501|459KB/s|C002-260622 01
-- type: vless
-  server: 209.206.51.240
-  port: 443
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  network: ws
-  servername: and-75r.pages.dev
-  tls: true
-  client-fingerprint: chrome
+  uuid: f15a5586-23f6-453f-97f5-c301b949e699
   ws-opts:
     path: /
     headers:
-      Host: and-75r.pages.dev
-  skip-cert-verify: true
-  udp: true
-  name: CA加拿大(mibei77.com 米贝节点分享)_2
+      Host: mute-sunset-0849.40-aeb.workers.dev
+  name: 🇫🇷FR_20|225KB/s|A004-260618 01
 - type: vless
-  server: k7vx2m.cyou
-  port: 443
-  udp: true
-  network: ws
-  uuid: c233cd08-884c-4170-a790-0e5aa3efa50f
-  tls: true
-  servername: k7vx2m.cyou
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-  name: 🇫🇷FR_785|2.8MB/s|F003-260618 01
-- type: vless
-  server: cf8.466688.xyz
+  server: 172.64.88.168
   port: 8880
   udp: true
   network: ws
-  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: summer-snow-c151.320-3ef.workers.dev
-  name: 🇫🇷FR_125|1.1MB/s|X001-260618 01
-- type: vless
-  server: cf10.466688.xyz
-  port: 8880
-  udp: true
-  network: ws
-  uuid: 7111212b-6bc3-459a-85b4-3b13038a19f8
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: shrill-fog-67af.235-e6a.workers.dev
-  name: 🇫🇷FR_533|591KB/s|C002-260622 01
-- type: vless
-  server: 66.70.179.198
-  port: 2053
-  udp: true
-  network: raw
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-    short-id: 83f8317a948bb769
-  name: 🇨🇦CA_15|1.1MB/s|A004-260618 01
-- type: vless
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  network: ws
-  uuid: 40ca0d8c-0641-4e2d-a701-9fd8330daf6d
-  tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  name: 🇺🇸US_377|417KB/s|M003-260806 01
-- type: vless
-  server: www.gov.ua
-  port: 8880
-  udp: true
-  network: ws
-  uuid: 25844c02-a1fe-43ec-a6b9-44e3bf375b83
+  uuid: b4883d27-3151-4adf-92b1-841c0dccd1ea
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: dark-breeze-a59a.494.workers.dev
-  name: 🇫🇷FR_83|766KB/s|C002-260622 01
-- type: vless
-  server: cf2.466688.xyz
-  port: 8880
-  udp: true
-  network: ws
-  uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: ancient-rice-c180.455-8ad.workers.dev
-  name: 🇫🇷FR_231|417KB/s|C002-260622 01
-- type: vless
-  server: 104.18.47.140
-  port: 2096
-  udp: true
-  network: ws
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  tls: true
-  servername: rainfall0705.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: rainfall0705.cc.cd
-  name: 🇫🇷FR_402|3.5MB/s|R002-260618 01
+      Host: damp-surf-aacf.296-8ed.workers.dev
+  name: 🇫🇷FR_102|976KB/s|C002-260622 01
 - type: vless
   server: 51.81.203.63
   port: 443
@@ -587,6 +95,183 @@ proxies:
     short-id: 4477382ff6d3d41c
   name: 🇺🇸US_152|860KB/s|A004-260618 01
 - type: vless
+  server: ccc.010304.xyz
+  port: 443
+  udp: true
+  network: ws
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  name: 🇫🇷FR_365|596KB/s|M003-260806 01
+- type: vless
+  server: cf2.466688.xyz
+  port: 8880
+  udp: true
+  network: ws
+  uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
+    headers:
+      Host: ancient-rice-c180.455-8ad.workers.dev
+  name: 🇫🇷FR_231|417KB/s|C002-260622 01
+- type: vless
+  server: 172.64.156.111
+  port: 443
+  udp: true
+  network: ws
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+  tls: true
+  servername: cf.zhahui.de5.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: cf.zhahui.de5.net
+  name: 🇫🇷FR_730|2.5MB/s|F003-260618 01
+- server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  name: 🇺🇸US-15.204.247.206-0175
+- type: vless
+  server: tk1.high-speed-test-56424.me
+  port: 443
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  servername: aws.amazon.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
+  skip-cert-verify: false
+  udp: true
+  name: 🇺🇸US美国丨yoyapai.com_16
+- type: vless
+  server: 66.70.179.198
+  port: 2053
+  udp: true
+  network: raw
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+  name: 🇨🇦CA_15|1.1MB/s|A004-260618 01
+- type: vless
+  server: 103.75.118.228
+  port: 12683
+  udp: true
+  network: tcp
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  name: 🇯🇵JP_42|557KB/s 01
+- server: 149.102.132.184
+  port: 80
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+  name: 🇬🇧GB-149.102.132.184-0204
+- type: trojan
+  server: fancy-javelin.rooster465.autos
+  port: 443
+  udp: true
+  network: tcp
+  password: UX82473651
+  servername: fancy-javelin.rooster465.autos
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  name: 🇯🇵JP_74|288KB/s|B007-260618 01
+- type: ss
+  server: 82.38.31.42
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.42-0137
+- type: vless
+  server: 3.114.220.22
+  port: 19645
+  udp: true
+  network: tcp
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  name: 🇯🇵JP_15|329KB/s|C002-260622 01
+- type: ss
+  server: 82.38.31.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.35-0156
+- type: vless
+  server: 142.91.106.31
+  port: 43000
+  udp: true
+  network: tcp
+  uuid: f8681dba-d368-4bab-a3c2-a8dc712ba368
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: onJvbzSx_vZUyycafvPuhsiSQsr9tw4zotyVMSWCvm4
+    short-id: 8d66106f
+  name: ❓Other_102|260KB/s|V002-260618 01
+- server: guided-ferret.rooster465.autos
+  port: 443
+  type: trojan
+  password: UX82473651
+  sni: guided-ferret.rooster465.autos
+  skip-cert-verify: false
+  name: 🇺🇸US-34.220.15.24-0184
+- type: trojan
+  server: brief-glider.rooster465.autos
+  port: 443
+  udp: true
+  network: tcp
+  password: UX82473651
+  servername: brief-glider.rooster465.autos
+  name: 未知 TROJAN-120 | free-nodes
+- type: trojan
+  server: cuddly-sheepdog.rooster465.autos
+  port: 443
+  udp: true
+  network: tcp
+  password: UX82473651
+  tls: true
+  servername: cuddly-sheepdog.rooster465.autos
+  name: 🇩🇪DE-3.74.47.221-2711
+- type: trojan
+  server: working-tomcat.rooster465.autos
+  port: 443
+  udp: true
+  network: tcp
+  password: UX82473651
+  servername: working-tomcat.rooster465.autos
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  name: 🇰🇷KR_79|458KB/s|A004-260618 01
+- type: vless
   server: 169.40.42.74
   port: 443
   udp: true
@@ -601,87 +286,43 @@ proxies:
     short-id: c39cc7310a
   name: 🇺🇸US_155|269KB/s|A004-260618 01
 - type: vless
-  server: 169.40.42.179
-  port: 443
-  udp: true
-  network: raw
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  name: 🇺🇸US_94|256KB/s|A004-260618 01
-- server: 149.102.132.184
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  name: 🇬🇧GB-149.102.132.184-0205
-- type: ss
-  server: 82.38.31.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  name: 🇬🇧GB-82.38.31.35-0132
-- type: ss
-  server: 82.38.31.42
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  name: 🇬🇧GB-82.38.31.42-0131
-- type: ss
-  server: 82.38.31.3
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  name: 🇬🇧GB-82.38.31.3-0130
-- server: 82.38.31.203
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  name: 🇬🇧GB-82.38.31.203-0096
-- type: vless
-  server: s2317.kukuss.top
+  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
   port: 443
   udp: true
   network: tcp
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
   flow: xtls-rprx-vision
   tls: true
-  servername: u695098uf24555c7s2316.gogocs.xyz
-  client-fingerprint: chrome
-  name: 🇺🇸US_418|195KB/s|A004-260618 01
-- type: ss
-  server: 45.149.114.171
-  port: 777
-  cipher: chacha20-ietf-poly1305
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
+  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
+  client-fingerprint: safari
+  reality-opts:
+    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
+    short-id: 2e124af254a65e7c
+  name: 🇬🇧GB_17|4.1MB/s|A004-260618 01
+- type: trojan
+  server: musical-mouse.rooster465.autos
+  port: 443
   udp: true
-  name: 🇫🇮FI-45.149.114.171-0152
-- server: guided-ferret.rooster465.autos
+  network: tcp
+  password: UX82473651
+  servername: musical-mouse.rooster465.autos
+  skip-cert-verify: true
+  name: 未知 TROJAN-137 | free-nodes
+- server: ace-liger.rooster465.autos
   port: 443
   type: trojan
   password: UX82473651
-  sni: guided-ferret.rooster465.autos
+  sni: ace-liger.rooster465.autos
   skip-cert-verify: false
-  name: 🇺🇸US-34.220.15.24-0180
+  name: 🇸🇬SG-13.212.35.242-0527
 - type: trojan
-  server: meet-goshawk.rooster465.autos
+  server: dynamic-imp.rooster465.autos
   port: 443
   udp: true
   network: tcp
   password: UX82473651
-  servername: meet-goshawk.rooster465.autos
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  name: 🇩🇪DE_90|556KB/s|M003-260806 01
+  servername: dynamic-imp.rooster465.autos
+  name: 未知 TROJAN-107 | free-nodes
 - type: vless
   server: 152.228.139.33
   port: 35108
@@ -697,34 +338,6 @@ proxies:
   grpc-opts:
     grpc-service-name: grpc-common3
   name: 🇫🇷FR_338|2.5MB/s|V003-260618 01
-- type: vless
-  server: 103.75.118.228
-  port: 12683
-  udp: true
-  network: tcp
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  name: 🇯🇵JP_42|557KB/s 01
-- type: vless
-  server: 144.31.215.227
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 91d734be-a3d0-4d50-83ab-74cf7b6966fa
-  flow: xtls-rprx-vision
-  tls: true
-  servername: cdn-de.bulkavpn.top
-  client-fingerprint: random
-  reality-opts:
-    public-key: LEoyslGYLVf2XWq9Bkq8Hod-EsB3ZoTlvR5AKK3rciQ
-    short-id: c885e8f8
-  name: 未知 VLESS-193 | free-nodes
 - type: vless
   server: 94.183.170.135
   port: 443
@@ -746,57 +359,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-  name: 🇦🇹AT-212.183.88.136-0821
-- type: vless
-  server: 3.114.220.22
-  port: 19645
-  udp: true
-  network: tcp
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  name: 🇯🇵JP_15|329KB/s|C002-260622 01
-- server: master-possum.rooster465.autos
-  port: 443
-  type: trojan
-  password: UX82473651
-  sni: master-possum.rooster465.autos
-  skip-cert-verify: false
-  name: 🇮🇪IE-54.76.166.42-0759
-- type: vless
-  server: 142.91.106.31
-  port: 43000
-  udp: true
-  network: tcp
-  uuid: f8681dba-d368-4bab-a3c2-a8dc712ba368
-  flow: xtls-rprx-vision
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: onJvbzSx_vZUyycafvPuhsiSQsr9tw4zotyVMSWCvm4
-    short-id: 8d66106f
-  name: ❓Other_102|260KB/s|V002-260618 01
-- type: trojan
-  server: dynamic-imp.rooster465.autos
-  port: 443
-  udp: true
-  network: tcp
-  password: UX82473651
-  servername: dynamic-imp.rooster465.autos
-  name: 未知 TROJAN-107 | free-nodes
-- type: trojan
-  server: brief-glider.rooster465.autos
-  port: 443
-  udp: true
-  network: tcp
-  password: UX82473651
-  servername: brief-glider.rooster465.autos
-  name: 未知 TROJAN-120 | free-nodes
+  name: 🇦🇹AT-212.183.88.136-0861
 - type: vless
   server: 162.35.242.252
   port: 443
@@ -810,89 +373,101 @@ proxies:
     public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
     short-id: 82c2b7d5e70ff000
   name: 未知 VLESS-261 | free-nodes
-- type: vless
-  server: 185.166.154.111
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 91d734be-a3d0-4d50-83ab-74cf7b6966fa
-  flow: xtls-rprx-vision
-  tls: true
-  servername: cdn.bulkavpn.top
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: bQZcMViJWXus9rMSTOa-ZAaUJC0mIlPx7XmzrLp8GQU
-    short-id: 94f32cfc
-  name: 未知 VLESS-210 | free-nodes
-- type: trojan
-  server: pleased-albacore.rooster465.autos
-  port: 443
-  udp: true
-  network: tcp
-  password: UX82473651
-  tls: true
-  servername: pleased-albacore.rooster465.autos
-  name: 🇩🇪DE-63.178.198.94-0164
-- type: vless
-  server: cf.130519.xyz
-  port: 443
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
-  network: ws
-  servername: cf-1rm.pages.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: cf-1rm.pages.dev
-  skip-cert-verify: true
-  udp: true
-  name: DE德国(mibei77.com 米贝节点分享)_2
-- type: trojan
-  server: working-tomcat.rooster465.autos
-  port: 443
-  udp: true
-  network: tcp
-  password: UX82473651
-  servername: working-tomcat.rooster465.autos
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  name: 🇰🇷KR_79|458KB/s|A004-260618 01
-- type: vless
-  server: 150.241.101.80
-  port: 8443
-  udp: true
-  network: raw
-  uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yandex.net
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  name: 🇪🇪EE_3|96KB/s|B007-260618 01
-- type: vless
-  server: 78.17.159.90
-  port: 443
-  udp: true
-  network: tcp
-  uuid: a889fba5-5472-4022-a6b4-9710157fda2f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: github.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: OxUvNHe0yPn3OfNl7ThhzYO0YcntrPNwYMqwjOYK8nI
-    short-id: a2aa
-  name: 🇵🇱PL_40|320KB/s|S004-260618 01
 - server: comic-poodle.rooster465.autos
   port: 443
   type: trojan
   password: UX82473651
   sni: comic-poodle.rooster465.autos
   skip-cert-verify: false
-  name: 🇯🇵JP-54.249.36.167-0178
+  name: 🇯🇵JP-54.249.36.167-0183
+- type: vless
+  server: v2ray.simspeedup.com
+  port: 80
+  udp: true
+  network: ws
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+  name: 🇹🇭TH_4|462KB/s|A001-260618 01
+- type: ss
+  server: 82.38.31.3
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.3-0147
+- type: vless
+  server: 103.172.197.3
+  port: 16006
+  udp: true
+  network: raw
+  uuid: f8c9d2a1-da40-4f90-b671-11772a0b13d6
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU
+  name: 🇮🇩ID_3|185KB/s|A004-260618 01
+- type: vless
+  server: s2317.kukuss.top
+  port: 443
+  udp: true
+  network: tcp
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  flow: xtls-rprx-vision
+  tls: true
+  servername: u695098uf24555c7s2316.gogocs.xyz
+  client-fingerprint: chrome
+  name: 🇺🇸US_418|195KB/s|A004-260618 01
+- server: musical-mouse.rooster465.autos
+  port: 443
+  type: trojan
+  password: UX82473651
+  sni: musical-mouse.rooster465.autos
+  skip-cert-verify: false
+  name: 🇸🇬SG-18.141.136.8-0415
+- type: trojan
+  server: musical-mouse.rooster465.autos
+  port: 443
+  udp: true
+  network: tcp
+  password: UX82473651
+  tls: true
+  servername: musical-mouse.rooster465.autos
+  name: 🇸🇬SG-18.141.136.8-0415 2
+- type: trojan
+  server: musical-mouse.rooster465.autos
+  port: 443
+  udp: true
+  network: tcp
+  password: UX82473651
+  servername: musical-mouse.rooster465.autos
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  name: 🇸🇬SG_97|287KB/s|A004-260618 01
+- type: vless
+  server: 156.226.168.221
+  port: 35193
+  udp: true
+  network: tcp
+  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
+    short-id: e8daed2d
+  name: 香港 07
+- server: 82.38.31.203
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: 🇬🇧GB-82.38.31.203-0246
 - type: vless
   server: 77.72.85.247
   port: 8443
@@ -907,38 +482,14 @@ proxies:
       Host: fdghyt.com
   name: 未知 VLESS-177 | free-nodes
 - type: trojan
-  server: lit.fytpn.com
-  port: 2097
-  udp: true
-  network: tcp
-  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
-  servername: lit.fytpn.com
-  client-fingerprint: chrome
-  name: 🇱🇻LV_34|1.1MB/s|S004-260618 01
-- type: trojan
-  server: fancy-javelin.rooster465.autos
+  server: pleased-albacore.rooster465.autos
   port: 443
   udp: true
   network: tcp
   password: UX82473651
-  servername: fancy-javelin.rooster465.autos
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  name: 🇯🇵JP_74|288KB/s|B007-260618 01
-- type: vless
-  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  flow: xtls-rprx-vision
   tls: true
-  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  client-fingerprint: safari
-  reality-opts:
-    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
-    short-id: 2e124af254a65e7c
-  name: 🇬🇧GB_17|4.1MB/s|A004-260618 01
+  servername: pleased-albacore.rooster465.autos
+  name: 🇩🇪DE-63.178.198.94-0199
 - type: vless
   server: 31.59.210.26
   port: 2088
@@ -956,93 +507,6 @@ proxies:
   udp: true
   name: RU俄罗斯(mibei77.com 米贝节点分享)
 - type: vless
-  server: 156.226.168.221
-  port: 35193
-  udp: true
-  network: tcp
-  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
-    short-id: e8daed2d
-  name: 香港 07
-- server: ace-liger.rooster465.autos
-  port: 443
-  type: trojan
-  password: UX82473651
-  sni: ace-liger.rooster465.autos
-  skip-cert-verify: false
-  name: 🇸🇬SG-13.212.35.242-0422
-- type: vless
-  server: 103.172.197.3
-  port: 16006
-  udp: true
-  network: raw
-  uuid: f8c9d2a1-da40-4f90-b671-11772a0b13d6
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU
-  name: 🇮🇩ID_3|185KB/s|A004-260618 01
-- type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  network: ws
-  servername: vlso5.1d.mom
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
-    headers:
-      Host: vlso5.1d.mom
-  skip-cert-verify: true
-  udp: true
-  name: RU俄罗斯(mibei77.com 米贝节点分享)_2
-- type: vless
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  network: ws
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-  name: 🇦🇪AE_1|757KB/s|A003-260618 01
-- type: vless
-  server: node-uk.connectsuite.org
-  port: 8443
-  udp: true
-  network: tcp
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-  tls: true
-  servername: node-uk.connectsuite.org
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇬🇧GB_13|379KB/s|A004-260618 01
-- type: vless
-  server: asia.csmaster.site
-  port: 8443
-  udp: true
-  network: ws
-  uuid: 799b1006-3255-4e36-8ea0-64fe24d2bfa7
-  tls: true
-  servername: asia.csmaster.site
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: asia.csmaster.site
-  name: 🇸🇬SG_74|515KB/s|A004-260618 01
-- type: vless
   server: 217.217.254.126
   port: 2053
   udp: true
@@ -1055,36 +519,34 @@ proxies:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
     short-id: 87829de0e2bb82cb
   name: 🇸🇬SG_21|215KB/s|A004-260618 01
-- server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  name: 🇺🇸US-15.204.247.206-0184
 - type: vless
-  server: 139.84.242.103
-  port: 443
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  network: ws
-  servername: vlso5.1d.mom
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
-    headers:
-      Host: vlso5.1d.mom
-  skip-cert-verify: true
+  server: 150.241.101.80
+  port: 8443
   udp: true
-  name: US美国(mibei77.com 米贝节点分享)_40
-- type: trojan
-  server: musical-mouse.rooster465.autos
+  network: raw
+  uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yandex.net
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  name: 🇪🇪EE_3|96KB/s|B007-260618 01
+- type: vless
+  server: 144.31.215.227
   port: 443
   udp: true
   network: tcp
-  password: UX82473651
-  servername: musical-mouse.rooster465.autos
-  skip-cert-verify: true
-  name: 未知 TROJAN-137 | free-nodes
+  uuid: 91d734be-a3d0-4d50-83ab-74cf7b6966fa
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn-de.bulkavpn.top
+  client-fingerprint: random
+  reality-opts:
+    public-key: LEoyslGYLVf2XWq9Bkq8Hod-EsB3ZoTlvR5AKK3rciQ
+    short-id: c885e8f8
+  name: 未知 VLESS-193 | free-nodes
 - type: vless
   server: 107.181.151.241
   port: 443
@@ -1099,120 +561,108 @@ proxies:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
     short-id: b27ba098687b
   name: 🇫🇮FI_7|382KB/s|M002-260618 01
+- type: vless
+  server: 169.40.42.179
+  port: 443
+  udp: true
+  network: raw
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  name: 🇺🇸US_94|256KB/s|A004-260618 01
+- type: vmess
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  name: 🇭🇰HK-47.83.207.148-2122 | clashnodefree.com
+- type: vless
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  network: ws
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+  name: 🇦🇪AE_1|757KB/s|A003-260618 01
 - server: 51.222.155.113
   port: 5601
   type: ss
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-  name: 🇨🇦CA-51.222.155.113-0214
-- type: trojan
-  server: musical-mouse.rooster465.autos
-  port: 443
-  udp: true
-  network: tcp
-  password: UX82473651
-  servername: musical-mouse.rooster465.autos
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  name: 🇸🇬SG_97|287KB/s|A004-260618 01
+  name: 🇨🇦CA-51.222.155.113-0259
 proxy-groups:
 - name: AUTO
   type: select
   proxies:
-  - ❓Other_114|152KB/s|M003-260806 01
-  - 🇫🇷FR_305|104KB/s|M003-260806 01
   - 🇫🇷FR_3|464KB/s|M002-260618 01
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_20
-  - 🇫🇷FR_130|633KB/s|M003-260806 01
-  - 🇫🇷FR_254|427KB/s|B007-260618 01
-  - 🇫🇷FR_235|657KB/s|M003-260806 01
-  - 🇫🇷FR_94|312KB/s|A004-260618 01
-  - 🇫🇷FR_448|411KB/s|T001-260618 01
-  - 🇫🇷FR_378|178KB/s|M003-260806 01
-  - 🇫🇷FR_20|225KB/s|A004-260618 01
-  - 🇫🇷FR_220|973KB/s|M003-260806 01
-  - ❓未知丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_2
-  - 🇫🇷FR_517|665KB/s|M003-260806 01
-  - 🇫🇷FR_123|167KB/s|S001-260618 01
   - 🇫🇷FR_151|210KB/s 01
-  - 🇫🇷FR_560|859KB/s|M003-260806 01
-  - 🇫🇷FR_102|976KB/s|C002-260622 01
   - 🇫🇷FR_53|633KB/s|M003-260806 01
-  - 🇫🇷FR_143|340KB/s|M003-260806 01
-  - 🇫🇷FR_601|684KB/s|M003-260806 01
-  - 🇫🇷FR_18|237KB/s|F003-260618 01
-  - 🇫🇷FR_167|264KB/s|C002-260622 01
-  - 🇫🇷FR_646|1.0MB/s|A004-260618 01
-  - 🇺🇸US_113|97KB/s|V008-260618 01
-  - 🇫🇷FR_670|951KB/s 01
-  - 🇫🇷FR_413|1009KB/s|A004-260618 01
-  - 🇫🇷FR_365|596KB/s|M003-260806 01
-  - 🇫🇷FR_730|2.5MB/s|F003-260618 01
-  - 🇺🇸US-64.74.161.147-0424
-  - 🇫🇷FR_666|843KB/s|C002-260622 01
-  - 🇺🇸US-108.181.0.177-0091
   - 🇫🇷FR_725|411KB/s|K001-260618 01
-  - 🇫🇷FR_196|304KB/s|C002-260622 01
-  - 🇫🇷FR_501|459KB/s|C002-260622 01
-  - CA加拿大(mibei77.com 米贝节点分享)_2
-  - 🇫🇷FR_785|2.8MB/s|F003-260618 01
-  - 🇫🇷FR_125|1.1MB/s|X001-260618 01
-  - 🇫🇷FR_533|591KB/s|C002-260622 01
-  - 🇨🇦CA_15|1.1MB/s|A004-260618 01
-  - 🇺🇸US_377|417KB/s|M003-260806 01
-  - 🇫🇷FR_83|766KB/s|C002-260622 01
-  - 🇫🇷FR_231|417KB/s|C002-260622 01
-  - 🇫🇷FR_402|3.5MB/s|R002-260618 01
+  - 🇫🇷FR_20|225KB/s|A004-260618 01
+  - 🇫🇷FR_102|976KB/s|C002-260622 01
   - 🇺🇸US_152|860KB/s|A004-260618 01
-  - 🇺🇸US_155|269KB/s|A004-260618 01
-  - 🇺🇸US_94|256KB/s|A004-260618 01
-  - 🇬🇧GB-149.102.132.184-0205
-  - 🇬🇧GB-82.38.31.35-0132
-  - 🇬🇧GB-82.38.31.42-0131
-  - 🇬🇧GB-82.38.31.3-0130
-  - 🇬🇧GB-82.38.31.203-0096
-  - 🇺🇸US_418|195KB/s|A004-260618 01
-  - 🇫🇮FI-45.149.114.171-0152
-  - 🇺🇸US-34.220.15.24-0180
-  - 🇩🇪DE_90|556KB/s|M003-260806 01
-  - 🇫🇷FR_338|2.5MB/s|V003-260618 01
+  - 🇫🇷FR_365|596KB/s|M003-260806 01
+  - 🇫🇷FR_231|417KB/s|C002-260622 01
+  - 🇫🇷FR_730|2.5MB/s|F003-260618 01
+  - 🇺🇸US-15.204.247.206-0175
+  - 🇺🇸US美国丨yoyapai.com_16
+  - 🇨🇦CA_15|1.1MB/s|A004-260618 01
   - 🇯🇵JP_42|557KB/s 01
-  - 未知 VLESS-193 | free-nodes
-  - 🇪🇪EE_7|1.7MB/s|A004-260618 01
-  - 🇦🇹AT-212.183.88.136-0821
-  - 🇯🇵JP_15|329KB/s|C002-260622 01
-  - 🇮🇪IE-54.76.166.42-0759
-  - ❓Other_102|260KB/s|V002-260618 01
-  - 未知 TROJAN-107 | free-nodes
-  - 未知 TROJAN-120 | free-nodes
-  - 未知 VLESS-261 | free-nodes
-  - 未知 VLESS-210 | free-nodes
-  - 🇩🇪DE-63.178.198.94-0164
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - 🇰🇷KR_79|458KB/s|A004-260618 01
-  - 🇪🇪EE_3|96KB/s|B007-260618 01
-  - 🇵🇱PL_40|320KB/s|S004-260618 01
-  - 🇯🇵JP-54.249.36.167-0178
-  - 未知 VLESS-177 | free-nodes
-  - 🇱🇻LV_34|1.1MB/s|S004-260618 01
+  - 🇬🇧GB-149.102.132.184-0204
   - 🇯🇵JP_74|288KB/s|B007-260618 01
+  - 🇬🇧GB-82.38.31.42-0137
+  - 🇯🇵JP_15|329KB/s|C002-260622 01
+  - 🇬🇧GB-82.38.31.35-0156
+  - ❓Other_102|260KB/s|V002-260618 01
+  - 🇺🇸US-34.220.15.24-0184
+  - 未知 TROJAN-120 | free-nodes
+  - 🇩🇪DE-3.74.47.221-2711
+  - 🇰🇷KR_79|458KB/s|A004-260618 01
+  - 🇺🇸US_155|269KB/s|A004-260618 01
   - 🇬🇧GB_17|4.1MB/s|A004-260618 01
-  - RU俄罗斯(mibei77.com 米贝节点分享)
-  - 香港 07
-  - 🇸🇬SG-13.212.35.242-0422
-  - 🇮🇩ID_3|185KB/s|A004-260618 01
-  - RU俄罗斯(mibei77.com 米贝节点分享)_2
-  - 🇦🇪AE_1|757KB/s|A003-260618 01
-  - 🇬🇧GB_13|379KB/s|A004-260618 01
-  - 🇸🇬SG_74|515KB/s|A004-260618 01
-  - 🇸🇬SG_21|215KB/s|A004-260618 01
-  - 🇺🇸US-15.204.247.206-0184
-  - US美国(mibei77.com 米贝节点分享)_40
   - 未知 TROJAN-137 | free-nodes
-  - 🇫🇮FI_7|382KB/s|M002-260618 01
-  - 🇨🇦CA-51.222.155.113-0214
+  - 🇸🇬SG-13.212.35.242-0527
+  - 未知 TROJAN-107 | free-nodes
+  - 🇫🇷FR_338|2.5MB/s|V003-260618 01
+  - 🇪🇪EE_7|1.7MB/s|A004-260618 01
+  - 🇦🇹AT-212.183.88.136-0861
+  - 未知 VLESS-261 | free-nodes
+  - 🇯🇵JP-54.249.36.167-0183
+  - 🇹🇭TH_4|462KB/s|A001-260618 01
+  - 🇬🇧GB-82.38.31.3-0147
+  - 🇮🇩ID_3|185KB/s|A004-260618 01
+  - 🇺🇸US_418|195KB/s|A004-260618 01
+  - 🇸🇬SG-18.141.136.8-0415
+  - 🇸🇬SG-18.141.136.8-0415 2
   - 🇸🇬SG_97|287KB/s|A004-260618 01
+  - 香港 07
+  - 🇬🇧GB-82.38.31.203-0246
+  - 未知 VLESS-177 | free-nodes
+  - 🇩🇪DE-63.178.198.94-0199
+  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - 🇸🇬SG_21|215KB/s|A004-260618 01
+  - 🇪🇪EE_3|96KB/s|B007-260618 01
+  - 未知 VLESS-193 | free-nodes
+  - 🇫🇮FI_7|382KB/s|M002-260618 01
+  - 🇺🇸US_94|256KB/s|A004-260618 01
+  - 🇭🇰HK-47.83.207.148-2122 | clashnodefree.com
+  - 🇦🇪AE_1|757KB/s|A003-260618 01
+  - 🇨🇦CA-51.222.155.113-0259
 rules:
 - MATCH,AUTO
