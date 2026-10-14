@@ -1,6 +1,12 @@
 mixed-port: 7890
 mode: rule
 proxies:
+- server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  name: 🇺🇸US-15.204.247.206-0152
 - type: vless
   server: 104.26.4.2
   port: 443
@@ -15,39 +21,6 @@ proxies:
     headers:
       Host: ccc.010304.xyz
   name: 🇫🇷FR_1383|437KB/s|K001-260618 01
-- server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  name: 🇺🇸US-15.204.247.206-0152
-- type: vless
-  server: 169.40.42.179
-  port: 443
-  udp: true
-  network: raw
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  name: 🇺🇸US_412|1.3MB/s|A004-260618 01
-- type: vless
-  server: 66.70.179.198
-  port: 2053
-  udp: true
-  network: raw
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-    short-id: 83f8317a948bb769
-  name: 🇨🇦CA_13|981KB/s|A004-260618 01
 - type: vless
   server: 51.81.203.63
   port: 443
@@ -69,6 +42,20 @@ proxies:
   password: g5h5jleTRSyO3Rk4
   name: 🇬🇧GB-149.102.132.184-0189
 - type: ss
+  server: 82.38.31.42
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.42-0148
+- type: ss
+  server: 82.38.31.3
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.3-0149
+- type: ss
   server: 82.38.31.35
   port: 8080
   cipher: chacha20-ietf-poly1305
@@ -81,20 +68,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   name: 🇬🇧GB-82.38.31.203-0080
-- type: ss
-  server: 82.38.31.3
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  name: 🇬🇧GB-82.38.31.3-0149
-- type: ss
-  server: 82.38.31.42
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  name: 🇬🇧GB-82.38.31.42-0148
 - type: vless
   server: 162.35.242.252
   port: 443
@@ -124,20 +97,6 @@ proxies:
     grpc-service-name: grpc-common3
   name: 🇫🇷FR_976|4.1MB/s|V003-260618 01
 - type: vless
-  server: 103.75.118.228
-  port: 12683
-  udp: true
-  network: tcp
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  name: 🇯🇵JP_71|602KB/s 01
-- type: vless
   server: 82.118.19.153
   port: 443
   udp: true
@@ -163,18 +122,19 @@ proxies:
     path: /
   name: 🇪🇪EE_1|1.5MB/s|A004-260618 01
 - type: vless
-  server: 177.1.192.74
+  server: 185.31.242.61
   port: 443
-  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
   udp: true
+  network: tcp
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
   flow: xtls-rprx-vision
   tls: true
-  servername: addons.mozilla.org
-  reality-opts:
-    public-key: qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8
-    short-id: 770618b6
+  servername: est.nztvpn.com
   client-fingerprint: chrome
-  name: 🇵🇱 Poland/Warsaw [TG]
+  reality-opts:
+    public-key: 7mRrVzTchVLWWBru5fCgTvtdkL7lVJ_qRj9HW8Rd8X0
+    short-id: 0da7e14db353e7d0
+  name: 未知 VLESS-284 | free-nodes
 - type: vless
   server: 193.163.203.170
   port: 443
@@ -190,20 +150,6 @@ proxies:
     short-id: b28db60d77c50b4f
   name: 🇱🇻LV拉脱维亚丨yoyapai.com
 - type: vless
-  server: 156.226.168.221
-  port: 35193
-  udp: true
-  network: tcp
-  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
-    short-id: e8daed2d
-  name: 香港 36
-- type: vless
   server: 3.114.220.22
   port: 19645
   udp: true
@@ -217,27 +163,17 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   name: 🇯🇵JP_3|366KB/s|C002-260622 01
-- server: musical-mouse.rooster465.autos
-  port: 443
-  type: trojan
-  password: UX82473651
-  sni: musical-mouse.rooster465.autos
-  skip-cert-verify: false
-  name: 🇸🇬SG-18.141.136.8-0205
 - type: vless
-  server: 169.40.42.74
-  port: 443
+  server: v2ray.simspeedup.com
+  port: 80
   udp: true
-  network: raw
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  name: 🇺🇸US_215|1.4MB/s|A004-260618 01
+  network: ws
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+  name: 🇹🇭TH_2|480KB/s|A001-260618 01
 - server: nimm.mpd.cc.cd
   port: 2053
   type: trojan
@@ -250,6 +186,40 @@ proxies:
     headers:
       Host: nimm.mpd.cc.cd
   name: 🏁RELAY-104.21.48.18-0506
+- server: musical-mouse.rooster465.autos
+  port: 443
+  type: trojan
+  password: UX82473651
+  sni: musical-mouse.rooster465.autos
+  skip-cert-verify: false
+  name: 🇸🇬SG-18.141.136.8-0205
+- type: vless
+  server: 177.1.192.74
+  port: 443
+  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: addons.mozilla.org
+  reality-opts:
+    public-key: qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8
+    short-id: 770618b6
+  client-fingerprint: chrome
+  name: 🇵🇱 Poland/Warsaw [TG]
+- type: vless
+  server: 107.181.151.241
+  port: 443
+  udp: true
+  network: tcp
+  uuid: ee39fb11-56a3-4ee7-9e7c-35a4235bd30e
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: b27ba098687b
+  name: 🇫🇮FI_69|360KB/s|M002-260618 01
 - type: vless
   server: de1.balancer.vbuste-bot.com
   port: 443
@@ -265,29 +235,6 @@ proxies:
     short-id: 4be4110078ebed4a
   name: DE【机场推荐：https://a9a.xyz】10
 - type: vless
-  server: 107.181.151.241
-  port: 443
-  udp: true
-  network: tcp
-  uuid: ee39fb11-56a3-4ee7-9e7c-35a4235bd30e
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.tradingview.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: b27ba098687b
-  name: 🇫🇮FI_69|360KB/s|M002-260618 01
-- type: trojan
-  server: musical-mouse.rooster465.autos
-  port: 443
-  udp: true
-  network: tcp
-  password: UX82473651
-  tls: true
-  servername: musical-mouse.rooster465.autos
-  name: 🇸🇬SG-18.141.136.8-0182
-- type: vless
   server: 150.241.101.80
   port: 8443
   udp: true
@@ -302,6 +249,34 @@ proxies:
     short-id: 6ba85179e30d4fc2
   name: 🇪🇪EE_20|287KB/s|B007-260618 01
 - type: vless
+  server: 169.40.42.179
+  port: 443
+  udp: true
+  network: raw
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  name: 🇺🇸US_412|1.3MB/s|A004-260618 01
+- type: vless
+  server: 169.40.42.74
+  port: 443
+  udp: true
+  network: raw
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  name: 🇺🇸US_215|1.4MB/s|A004-260618 01
+- type: vless
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -312,58 +287,66 @@ proxies:
     headers:
       Host: uae.unixzone.us
   name: 🇦🇪AE_1|265KB/s|A003-260618 01
-- type: vless
-  server: 185.31.242.61
-  port: 443
-  udp: true
-  network: tcp
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
-  flow: xtls-rprx-vision
-  tls: true
-  servername: est.nztvpn.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7mRrVzTchVLWWBru5fCgTvtdkL7lVJ_qRj9HW8Rd8X0
-    short-id: 0da7e14db353e7d0
-  name: 未知 VLESS-284 | free-nodes
 - server: 51.222.155.113
   port: 5601
   type: ss
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   name: 🇨🇦CA-51.222.155.113-0410
+- type: vless
+  server: 156.226.168.221
+  port: 35193
+  udp: true
+  network: tcp
+  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
+    short-id: e8daed2d
+  name: 香港 36
+- type: trojan
+  server: musical-mouse.rooster465.autos
+  port: 443
+  udp: true
+  network: tcp
+  password: UX82473651
+  tls: true
+  servername: musical-mouse.rooster465.autos
+  name: 🇸🇬SG-18.141.136.8-0182
 proxy-groups:
 - name: AUTO
   type: select
   proxies:
-  - 🇫🇷FR_1383|437KB/s|K001-260618 01
   - 🇺🇸US-15.204.247.206-0152
-  - 🇺🇸US_412|1.3MB/s|A004-260618 01
-  - 🇨🇦CA_13|981KB/s|A004-260618 01
+  - 🇫🇷FR_1383|437KB/s|K001-260618 01
   - United States/Hillsboro [TG]
   - 🇬🇧GB-149.102.132.184-0189
+  - 🇬🇧GB-82.38.31.42-0148
+  - 🇬🇧GB-82.38.31.3-0149
   - 🇬🇧GB-82.38.31.35-0144
   - 🇬🇧GB-82.38.31.203-0080
-  - 🇬🇧GB-82.38.31.3-0149
-  - 🇬🇧GB-82.38.31.42-0148
   - 🇳🇱NL_157|2.6MB/s|V003-260618 01
   - 🇫🇷FR_976|4.1MB/s|V003-260618 01
-  - 🇯🇵JP_71|602KB/s 01
   - 🇩🇪DE_95|211KB/s|R002-260618 01
   - 🇪🇪EE_1|1.5MB/s|A004-260618 01
-  - 🇵🇱 Poland/Warsaw [TG]
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 香港 36
-  - 🇯🇵JP_3|366KB/s|C002-260622 01
-  - 🇸🇬SG-18.141.136.8-0205
-  - 🇺🇸US_215|1.4MB/s|A004-260618 01
-  - 🏁RELAY-104.21.48.18-0506
-  - DE【机场推荐：https://a9a.xyz】10
-  - 🇫🇮FI_69|360KB/s|M002-260618 01
-  - 🇸🇬SG-18.141.136.8-0182
-  - 🇪🇪EE_20|287KB/s|B007-260618 01
-  - 🇦🇪AE_1|265KB/s|A003-260618 01
   - 未知 VLESS-284 | free-nodes
+  - 🇱🇻LV拉脱维亚丨yoyapai.com
+  - 🇯🇵JP_3|366KB/s|C002-260622 01
+  - 🇹🇭TH_2|480KB/s|A001-260618 01
+  - 🏁RELAY-104.21.48.18-0506
+  - 🇸🇬SG-18.141.136.8-0205
+  - 🇵🇱 Poland/Warsaw [TG]
+  - 🇫🇮FI_69|360KB/s|M002-260618 01
+  - DE【机场推荐：https://a9a.xyz】10
+  - 🇪🇪EE_20|287KB/s|B007-260618 01
+  - 🇺🇸US_412|1.3MB/s|A004-260618 01
+  - 🇺🇸US_215|1.4MB/s|A004-260618 01
+  - 🇦🇪AE_1|265KB/s|A003-260618 01
   - 🇨🇦CA-51.222.155.113-0410
+  - 香港 36
+  - 🇸🇬SG-18.141.136.8-0182
 rules:
 - MATCH,AUTO
