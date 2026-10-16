@@ -1,20 +1,23 @@
 mixed-port: 7890
 mode: rule
 proxies:
-- type: vless
-  server: 15.204.97.216
-  port: 23576
+- network: ws
+  port: 8080
+  server: 104.18.35.86
+  sub_tag: A004-260618
+  type: vless
   udp: true
-  network: raw
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  name: 🇺🇸US_33|367KB/s|M003-260806 01
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+  name: ❓Other_44|128KB/s|A004-260618 01
 - network: ws
   port: 8080
   server: 188.114.97.6
@@ -66,23 +69,6 @@ proxies:
   packet-encoding: xudp
   servername: hhlfy.twiladaphne.ndjp.net
   name: ❓Other_70|243KB/s|K001-260618 01
-- network: ws
-  port: 8080
-  server: 104.18.35.86
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  servername: hhlfy.twiladaphne.ndjp.net
-  name: ❓Other_44|128KB/s|A004-260618 01
 - type: vless
   server: 162.159.250.29
   port: 443
@@ -97,18 +83,19 @@ proxies:
       Host: lucasjow.us.ci
   name: '🇺🇸 United States/San Francisco [TG] #7'
 - type: vless
-  server: 172.67.130.187
-  port: 2083
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  server: 15.204.97.216
+  port: 23576
   udp: true
+  network: raw
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
   tls: true
-  servername: fans.liverpool.qzz.io
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: fans.liverpool.qzz.io
-  name: '🇺🇸 United States/San Francisco [TG] #5'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  name: 🇺🇸US_33|367KB/s|M003-260806 01
 - type: vless
   server: 51.81.203.63
   port: 443
@@ -137,12 +124,6 @@ proxies:
   skip-cert-verify: false
   udp: true
   name: 🇺🇸US美国丨yoyapai.com_14
-- server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  name: 🇺🇸US-15.204.247.206-0222
 - type: vless
   server: 169.40.42.225
   port: 443
@@ -157,17 +138,6 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   name: 'Germany [TG] #2'
-- client-fingerprint: chrome
-  network: tcp
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  skip-cert-verify: true
-  sni: 45.32.52.173
-  sub_tag: C001-260618
-  type: trojan
-  udp: true
-  name: 🇯🇵JP_5|217KB/s|C001-260618 01
 - type: vless
   server: 169.40.42.95
   port: 443
@@ -182,20 +152,42 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   name: 🇺🇸US_32|594KB/s|A004-260618 01
-- type: ss
-  server: 82.38.31.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+- server: 149.102.132.184
+  port: 80
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+  name: 🇬🇧GB-149.102.132.184-0148
+- server: 158.173.24.73
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  name: 🇬🇧GB-158.173.24.73-0413
+- client-fingerprint: chrome
+  network: tcp
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
+  skip-cert-verify: true
+  sni: 45.32.52.173
+  sub_tag: C001-260618
+  type: trojan
   udp: true
-  name: 🇬🇧GB-82.38.31.35-0175
-- type: ss
-  server: 82.38.31.3
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 🇯🇵JP_5|217KB/s|C001-260618 01
+- type: vless
+  server: 169.40.42.90
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   udp: true
-  name: 🇬🇧GB-82.38.31.3-0169
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yahoo.com
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: chrome
+  name: '🇩🇪 Germany [TG] #7'
 - cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -216,7 +208,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  name: 🇬🇧GB-82.38.31.42-0186
+  name: 🇬🇧GB-82.38.31.42-0108
+- type: ss
+  server: 82.38.31.3
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.3-0104
 - alterId: '0'
   cipher: auto
   network: tcp
@@ -231,6 +230,13 @@ proxies:
   xudp: true
   packet-encoding: xudp
   name: 🇸🇬SG_3|133KB/s|C002-260622 01
+- type: ss
+  server: 82.38.31.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.35-0106
 - alterId: 0
   cipher: auto
   network: tcp
@@ -260,12 +266,45 @@ proxies:
     public-key: QAoJHZT6_DZsBu-jH74uYZUTpGgxmvN2tXpRKj4CygE
     short-id: cf4e6f8338
   name: Canada [TG]
-- server: 149.102.132.184
+- type: vless
+  server: 157.228.150.34
+  port: 443
+  udp: true
+  network: tcp
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  flow: xtls-rprx-vision
+  tls: true
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
+  name: 未知 VLESS-235 | free-nodes
+- type: vless
+  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
+  port: 443
+  udp: true
+  network: tcp
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  flow: xtls-rprx-vision
+  tls: true
+  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
+  client-fingerprint: safari
+  reality-opts:
+    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
+    short-id: 2e124af254a65e7c
+  name: 🇬🇧GB_8|359KB/s|A004-260618 01
+- type: vless
+  server: ov-germany1.09vpn.com
   port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  name: 🇬🇧GB-149.102.132.184-0148
+  udp: true
+  network: ws
+  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
+  name: 🇩🇪DE_9|315KB/s|A004-260618 01
 - type: vless
   server: 217.60.67.123
   port: 443
@@ -281,57 +320,6 @@ proxies:
     short-id: adcbde41b1cf27ba
   name: NL荷兰(mibei77.com 米贝节点分享)
 - type: vless
-  server: e3k67dwms3-51255166202-direct.tavafog.com
-  port: 443
-  udp: true
-  network: tcp
-  uuid: e3k67dwms3
-  flow: xtls-rprx-vision
-  tls: true
-  servername: e3k67dwms3-51255166202-direct.tavafog.com
-  alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 未知 VLESS-285 | free-nodes
-- type: vless
-  server: ov-germany1.09vpn.com
-  port: 80
-  udp: true
-  network: ws
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-  name: 🇩🇪DE_9|315KB/s|A004-260618 01
-- type: vless
-  server: 185.31.242.61
-  port: 443
-  udp: true
-  network: tcp
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
-  flow: xtls-rprx-vision
-  tls: true
-  servername: est.nztvpn.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7mRrVzTchVLWWBru5fCgTvtdkL7lVJ_qRj9HW8Rd8X0
-    short-id: 0da7e14db353e7d0
-  name: 未知 VLESS-290 | free-nodes
-- type: vless
-  server: 169.40.42.90
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  client-fingerprint: chrome
-  name: '🇩🇪 Germany [TG] #7'
-- type: vless
   server: 150.241.101.80
   port: 8443
   udp: true
@@ -345,35 +333,22 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: 6ba85179e30d4fc2
   name: 🇪🇪EE_1|130KB/s|B007-260618 01
-- type: vless
-  server: 109.172.54.135
-  port: 8444
+- server: musical-mouse.rooster465.autos
+  port: 443
+  type: trojan
+  password: UX82473651
+  sni: musical-mouse.rooster465.autos
+  skip-cert-verify: false
+  name: 🇸🇬SG-18.141.136.8-0149
+- type: trojan
+  server: musical-mouse.rooster465.autos
+  port: 443
   udp: true
-  network: grpc
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  network: tcp
+  password: UX82473651
   tls: true
-  servername: github.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  grpc-opts:
-    grpc-service-name: GunService
-  name: RU俄罗斯(mibei77.com 米贝节点分享)
-- type: vless
-  server: se1.h1cloud.net
-  port: 26226
-  udp: true
-  network: grpc
-  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
-  tls: true
-  servername: www.dn.se
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: zsSr4H-YgykAOYdIYFaAnFQtIguRhP825FodeKSoxjA
-    short-id: 2ddf3f1151012c98
-  grpc-opts:
-    grpc-service-name: 69effd3120f4
-  name: 未知 VLESS-297 | free-nodes
+  servername: musical-mouse.rooster465.autos
+  name: 🇸🇬SG-18.141.136.8-0149 2
 - alterId: 0
   cipher: auto
   network: ws
@@ -392,16 +367,6 @@ proxies:
   packet-encoding: xudp
   servername: 🇮🇳in-152.67.8.205-0191 | 0.0mb
   name: 🇮🇳IN_3|314KB/s|A004-260618 01
-- network: raw
-  port: 2052
-  server: edge10.cyrionflare.com
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  xudp: true
-  packet-encoding: xudp
-  name: ❓Other_71|253KB/s|A004-260618 01
 - type: vless
   server: 204.216.216.23
   port: 1114
@@ -417,33 +382,19 @@ proxies:
     short-id: 79a1e14b
   name: 🇮🇹IT_2|269KB/s 01
 - type: vless
-  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  port: 443
+  server: funagfrdfs.alixxplay.com
+  port: 56656
   udp: true
   network: tcp
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   flow: xtls-rprx-vision
   tls: true
-  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  client-fingerprint: safari
+  servername: cdn-dynmedia-1.microsoft.com
+  client-fingerprint: ios
   reality-opts:
-    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
-    short-id: 2e124af254a65e7c
-  name: 🇬🇧GB_8|359KB/s|A004-260618 01
-- type: vless
-  server: de1.balancer.vbuste-bot.com
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-  flow: xtls-rprx-vision
-  tls: true
-  servername: de1.balancer.vbuste-bot.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  name: 未知 VLESS-174 | free-nodes
+    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
+    short-id: aae6d935
+  name: JP日本(mibei77.com 米贝节点分享)
 - type: vless
   server: 193.163.203.170
   port: 443
@@ -459,59 +410,66 @@ proxies:
     short-id: b28db60d77c50b4f
   name: 🇱🇻LV拉脱维亚丨yoyapai.com
 - type: vless
-  server: 157.228.150.34
+  server: 109.172.54.135
+  port: 8444
+  udp: true
+  network: grpc
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  tls: true
+  servername: github.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  grpc-opts:
+    grpc-service-name: GunService
+  name: RU俄罗斯(mibei77.com 米贝节点分享)
+- network: raw
+  port: 2052
+  server: edge10.cyrionflare.com
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  xudp: true
+  packet-encoding: xudp
+  name: ❓Other_71|253KB/s|A004-260618 01
+- type: vless
+  server: platform102.golnamakcert.top
+  port: 80
+  udp: true
+  network: ws
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  servername: platform102.halalkhor.info
+  ws-opts:
+    path: /platform102
+    headers:
+      Host: platform102.halalkhor.info
+  name: 未知 VLESS-255 | free-nodes
+- type: vless
+  server: platform102.golnamakcert.top
+  port: 80
+  udp: true
+  network: ws
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  servername: platform102.golnamakcert.top
+  ws-opts:
+    path: /platform102
+    headers:
+      Host: platform102.halalkhor.info
+  name: 未知 VLESS-256 | free-nodes
+- type: vless
+  server: e3k67dwms3-51255166202-direct.tavafog.com
   port: 443
   udp: true
   network: tcp
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  uuid: e3k67dwms3
   flow: xtls-rprx-vision
   tls: true
-  servername: addons.mozilla.org
+  servername: e3k67dwms3-51255166202-direct.tavafog.com
+  alpn:
+  - h2
   client-fingerprint: chrome
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: 3cef317b
-  name: 未知 VLESS-235 | free-nodes
-- type: vless
-  server: 142.91.101.39
-  port: 627
-  udp: true
-  network: ws
-  uuid: 8199228b-e84b-42a2-9268-e400391e483a
-  tls: true
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  name: SG新加坡(mibei77.com 米贝节点分享)
-- type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 56656
-  udp: true
-  network: tcp
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  servername: cdn-dynmedia-1.microsoft.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
-    short-id: aae6d935
-  name: JP日本(mibei77.com 米贝节点分享)
-- server: nimm.mpd.cc.cd
-  port: 2053
-  type: trojan
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  sni: nimm.mpd.cc.cd
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /0962
-    headers:
-      Host: nimm.mpd.cc.cd
-  name: 🏁RELAY-172.67.176.3-0485
+  name: 未知 VLESS-285 | free-nodes
 - type: vless
   server: 208.67.106.154
   port: 443
@@ -526,41 +484,6 @@ proxies:
     public-key: _0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg
     short-id: c9677d3b7dea
   name: 🇳🇱NL_52|393KB/s|M002-260618 01
-- server: musical-mouse.rooster465.autos
-  port: 443
-  type: trojan
-  password: UX82473651
-  sni: musical-mouse.rooster465.autos
-  skip-cert-verify: false
-  name: 🇸🇬SG-18.141.136.8-0149
-- server: 51.222.155.113
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  name: 🇨🇦CA-51.222.155.113-0403
-- type: trojan
-  server: musical-mouse.rooster465.autos
-  port: 443
-  udp: true
-  network: tcp
-  password: UX82473651
-  tls: true
-  servername: musical-mouse.rooster465.autos
-  name: 🇸🇬SG-18.141.136.8-0212
-- type: vless
-  server: 77.221.157.213
-  port: 14430
-  udp: true
-  network: ws
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  servername: 77.221.157.213
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 77.221.157.213
-  name: DE德国(mibei77.com 米贝节点分享)
 - type: vless
   server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
   port: 443
@@ -575,55 +498,112 @@ proxies:
     headers:
       Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
   name: US【机场推荐：https://a9a.xyz】11
+- server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  name: 🇺🇸US-15.204.247.206-0222
+- type: vless
+  server: undef.network
+  port: 2052
+  udp: true
+  network: ws
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  servername: undef.network
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+  name: 🇩🇪DE_8|227KB/s|M002-260618 01
+- type: vless
+  server: de1.balancer.vbuste-bot.com
+  port: 443
+  udp: true
+  network: tcp
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  flow: xtls-rprx-vision
+  tls: true
+  servername: de1.balancer.vbuste-bot.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  name: 未知 VLESS-174 | free-nodes
+- type: vless
+  server: 103.41.7.43
+  port: 2061
+  udp: true
+  network: tcp
+  uuid: 9c2888cf-99f8-4c04-ac07-c033359ff975
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Ub1ffFeVtG2zd_t001wgmuhojSAxvaVwuo_pAapScBA
+    short-id: c77f719b082817e4
+  name: HK【机场推荐：https://a9a.xyz】16
+- server: nimm.mpd.cc.cd
+  port: 2053
+  type: trojan
+  password: e309e031-991e-4656-9934-44d10deb8fd8
+  sni: nimm.mpd.cc.cd
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /0962
+    headers:
+      Host: nimm.mpd.cc.cd
+  name: 🏁RELAY-172.67.176.3-0485
 proxy-groups:
 - name: AUTO
   type: select
   proxies:
-  - 🇺🇸US_33|367KB/s|M003-260806 01
+  - ❓Other_44|128KB/s|A004-260618 01
   - ❓Other_12|303KB/s|A004-260618 01
   - 🇫🇷FR_7|306KB/s|M002-260618 01
   - ❓Other_70|243KB/s|K001-260618 01
-  - ❓Other_44|128KB/s|A004-260618 01
   - '🇺🇸 United States/San Francisco [TG] #7'
-  - '🇺🇸 United States/San Francisco [TG] #5'
+  - 🇺🇸US_33|367KB/s|M003-260806 01
   - ❓Other_54|320KB/s|A004-260618 01
   - 🇺🇸US美国丨yoyapai.com_14
-  - 🇺🇸US-15.204.247.206-0222
   - 'Germany [TG] #2'
-  - 🇯🇵JP_5|217KB/s|C001-260618 01
   - 🇺🇸US_32|594KB/s|A004-260618 01
-  - 🇬🇧GB-82.38.31.35-0175
-  - 🇬🇧GB-82.38.31.3-0169
+  - 🇬🇧GB-149.102.132.184-0148
+  - 🇬🇧GB-158.173.24.73-0413
+  - 🇯🇵JP_5|217KB/s|C001-260618 01
+  - '🇩🇪 Germany [TG] #7'
   - 🇳🇱NL_17|306KB/s|A003-260618 01
   - 🇬🇧GB-82.38.31.203-0059
-  - 🇬🇧GB-82.38.31.42-0186
+  - 🇬🇧GB-82.38.31.42-0108
+  - 🇬🇧GB-82.38.31.3-0104
   - 🇸🇬SG_3|133KB/s|C002-260622 01
+  - 🇬🇧GB-82.38.31.35-0106
   - 🇸🇬SG_1|217KB/s|A004-260618 01
   - Canada [TG]
-  - 🇬🇧GB-149.102.132.184-0148
-  - NL荷兰(mibei77.com 米贝节点分享)
-  - 未知 VLESS-285 | free-nodes
-  - 🇩🇪DE_9|315KB/s|A004-260618 01
-  - 未知 VLESS-290 | free-nodes
-  - '🇩🇪 Germany [TG] #7'
-  - 🇪🇪EE_1|130KB/s|B007-260618 01
-  - RU俄罗斯(mibei77.com 米贝节点分享)
-  - 未知 VLESS-297 | free-nodes
-  - 🇮🇳IN_3|314KB/s|A004-260618 01
-  - ❓Other_71|253KB/s|A004-260618 01
-  - 🇮🇹IT_2|269KB/s 01
-  - 🇬🇧GB_8|359KB/s|A004-260618 01
-  - 未知 VLESS-174 | free-nodes
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 未知 VLESS-235 | free-nodes
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - JP日本(mibei77.com 米贝节点分享)
-  - 🏁RELAY-172.67.176.3-0485
-  - 🇳🇱NL_52|393KB/s|M002-260618 01
+  - 🇬🇧GB_8|359KB/s|A004-260618 01
+  - 🇩🇪DE_9|315KB/s|A004-260618 01
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 🇪🇪EE_1|130KB/s|B007-260618 01
   - 🇸🇬SG-18.141.136.8-0149
-  - 🇨🇦CA-51.222.155.113-0403
-  - 🇸🇬SG-18.141.136.8-0212
-  - DE德国(mibei77.com 米贝节点分享)
+  - 🇸🇬SG-18.141.136.8-0149 2
+  - 🇮🇳IN_3|314KB/s|A004-260618 01
+  - 🇮🇹IT_2|269KB/s 01
+  - JP日本(mibei77.com 米贝节点分享)
+  - 🇱🇻LV拉脱维亚丨yoyapai.com
+  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - ❓Other_71|253KB/s|A004-260618 01
+  - 未知 VLESS-255 | free-nodes
+  - 未知 VLESS-256 | free-nodes
+  - 未知 VLESS-285 | free-nodes
+  - 🇳🇱NL_52|393KB/s|M002-260618 01
   - US【机场推荐：https://a9a.xyz】11
+  - 🇺🇸US-15.204.247.206-0222
+  - 🇩🇪DE_8|227KB/s|M002-260618 01
+  - 未知 VLESS-174 | free-nodes
+  - HK【机场推荐：https://a9a.xyz】16
+  - 🏁RELAY-172.67.176.3-0485
 rules:
 - MATCH,AUTO
