@@ -1,123 +1,6 @@
 mixed-port: 7890
 mode: rule
 proxies:
-- type: vless
-  server: 104.16.162.89
-  port: 8080
-  udp: true
-  network: ws
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 🇫🇷FR_290|1.2MB/s|A004-260618 [46de6a0178f0]
-- client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 104.24.95.193
-  sub_tag: F003-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: snip.edgeoneai.cc.cd
-  name: 🇫🇷FR_284|1.8MB/s|F003-260618 [821aa12cf328]
-- network: ws
-  port: 8080
-  server: 104.18.35.86
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  servername: hhlfy.twiladaphne.ndjp.net
-  name: 🇫🇷FR_15|1.4MB/s|A004-260618 [fc38c1a6c18e]
-- client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 188.114.98.0
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /fdip
-  xudp: true
-  packet-encoding: xudp
-  servername: snip.edgeoneai.cc.cd
-  name: 🇫🇷FR_114|4.7MB/s|M003-260806 [6814268b19fc]
-- type: vless
-  server: 104.26.4.2
-  port: 443
-  udp: true
-  network: ws
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-  name: 🇫🇷FR_61|792KB/s|K001-260618 [7ee212c10600]
-- client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 162.159.128.253
-  sub_tag: F003-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: snip.edgeoneai.cc.cd
-  name: 🇫🇷FR_280|6.6MB/s|F003-260618 [99d6b81147f0]
-- client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  sub_tag: P002-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-  servername: ccc.010304.xyz
-  name: 🇫🇷FR_60|976KB/s|P002-260618 [832b63a63111]
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -139,12 +22,319 @@ proxies:
   packet-encoding: xudp
   servername: snip.edgeoneai.cc.cd
   name: 🇫🇷FR_217|5.4MB/s|S004-260618 [9f25b14ee017]
+- network: ws
+  port: 8080
+  server: 104.18.35.86
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+  name: 🇫🇷FR_15|1.4MB/s|A004-260618 [fc38c1a6c18e]
+- client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 162.159.128.253
+  sub_tag: F003-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇫🇷FR_280|6.6MB/s|F003-260618 [99d6b81147f0]
+- type: vless
+  server: 104.16.162.89
+  port: 8080
+  udp: true
+  network: ws
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 🇫🇷FR_290|1.2MB/s|A004-260618 [46de6a0178f0]
+- type: vless
+  server: 66.70.179.198
+  port: 2053
+  udp: true
+  network: raw
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+  name: 🇨🇦CA_7|1.5MB/s|A004-260618 [ad51eeb021eb]
+- type: vless
+  server: 169.40.42.74
+  port: 443
+  udp: true
+  network: raw
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  name: 🇺🇸US_389|1.5MB/s|A004-260618 [7b3d5e5048d2]
+- client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 172.67.76.40
+  sub_tag: P002-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+  servername: ccc.010304.xyz
+  name: 🇫🇷FR_60|976KB/s|P002-260618 [832b63a63111]
+- client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 104.24.95.193
+  sub_tag: F003-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇫🇷FR_284|1.8MB/s|F003-260618 [821aa12cf328]
+- type: vless
+  server: 104.26.13.31
+  port: 8080
+  udp: true
+  network: ws
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  servername: ip.sb
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+  name: 🇫🇷FR_191|956KB/s|M003-260806 [e37a62453c72]
 - server: 185.215.132.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: 🇺🇸US-185.215.132.18-0095
+  name: 🇺🇸US-185.215.132.18-0053
+- client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /fdip
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇫🇷FR_114|4.7MB/s|M003-260806 [6814268b19fc]
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 172.66.47.45
+  sub_tag: B007-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  ws-opts:
+    headers:
+      Host: ezaccess-project-f62c30.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+  xudp: true
+  packet-encoding: xudp
+  servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
+  name: 🇫🇷FR_149|336KB/s|B007-260618 [39e764cc5f1e]
+- type: vless
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  network: ws
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  tls: true
+  servername: fornewiran.ade-1000.workers.dev
+  alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  ws-opts:
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
+  name: 🇫🇷FR_201|500KB/s|M003-260806 [5d74d5650830]
+- type: vless
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  network: ws
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  tls: true
+  servername: all.speedtest03.ccwu.cc
+  client-fingerprint: unsafe
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
+  name: 🇫🇷FR_187|1.2MB/s|M003-260806 [084c103d595e]
+- type: vless
+  server: 172.64.156.111
+  port: 443
+  udp: true
+  network: ws
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+  tls: true
+  servername: cf.zhahui.de5.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: cf.zhahui.de5.net
+  name: 🇫🇷FR_262|421KB/s|F003-260618 [766a91d6aca0]
+- type: vless
+  server: 172.67.74.90
+  port: 443
+  udp: true
+  network: ws
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  tls: true
+  servername: cvhpyn.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: cvhpyn.pages.dev
+  name: 🇫🇷FR_199|2.3MB/s|M003-260806 [afd146c219e5]
+- client-fingerprint: chrome
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.21.26.36
+  skip-cert-verify: false
+  sni: vless.herogoing.top
+  sub_tag: M002-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /tr
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+  name: 🇫🇷FR_135|592KB/s|M002-260618 [3d4b9f52f153]
+- type: vless
+  server: 104.26.4.2
+  port: 443
+  udp: true
+  network: ws
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+  name: 🇫🇷FR_61|792KB/s|K001-260618 [7ee212c10600]
+- client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 162.35.127.65
+  sub_tag: K001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇺🇸US_455|891KB/s|K001-260618 [11e7d052067e]
+- server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  name: 🇺🇸US-15.204.247.206-0147
+- type: vless
+  server: 69.48.201.136
+  port: 30016
+  udp: true
+  network: ws
+  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+  servername: zoom.us
+  ws-opts:
+    path: /usserver
+    headers:
+      Host: zoom.us
+  name: 🇺🇸US_448|801KB/s|A004-260618 [1f72b334a6b7]
+- type: vless
+  server: 104.18.47.140
+  port: 2096
+  udp: true
+  network: ws
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  tls: true
+  servername: rainfall0705.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: rainfall0705.cc.cd
+  name: 🇫🇷FR_232|2.7MB/s|R002-260618 [215214998675]
 - type: vless
   server: ccc.010304.xyz
   port: 443
@@ -159,6 +349,74 @@ proxies:
     headers:
       Host: ccc.010304.xyz
   name: 🇫🇷FR_17|495KB/s|M003-260806 [273b0a6798e5]
+- client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 104.17.44.17
+  sub_tag: K001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  ws-opts:
+    headers:
+      Host: top-e4s.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /fp=unsafe
+  xudp: true
+  packet-encoding: xudp
+  servername: top-e4s.pages.dev
+  name: 🇫🇷FR_254|356KB/s|K001-260618 [ec92deb18f1d]
+- type: ss
+  server: 82.38.31.42
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.42-0104
+- type: ss
+  server: 82.38.31.3
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.3-0110
+- server: 82.38.31.203
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: 🇬🇧GB-82.38.31.203-0085
+- type: vless
+  server: shin-ra.ccwu.cc
+  port: 443
+  udp: true
+  network: ws
+  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
+  tls: true
+  servername: shin-ra.ccwu.cc
+  client-fingerprint: unsafe
+  ws-opts:
+    path: /
+    headers:
+      Host: shin-ra.ccwu.cc
+  name: 🇫🇷FR_189|423KB/s|F003-260618 [e2f2ce173003]
+- type: ss
+  server: 82.38.31.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.35-0103
+- type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  skip-cert-verify: true
+  udp: true
+  name: US美国(mibei77.com 米贝节点分享)_27
 - type: vless
   server: 51.81.203.63
   port: 443
@@ -173,22 +431,110 @@ proxies:
     public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
     short-id: 4477382ff6d3d41c
   name: 🇺🇸US_188|958KB/s|A004-260618 [469691940756]
+- type: vless
+  server: 152.228.162.19
+  port: 80
+  udp: true
+  network: ws
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  ws-opts:
+    path: /vless/
+  name: ❓Other_12|1.4MB/s|B007-260618 [778edd07178d]
 - client-fingerprint: chrome
   network: ws
-  password: mitivpn
   port: 443
-  server: 188.114.98.0
-  skip-cert-verify: false
-  sni: de.mitivpn.in.net
-  sub_tag: A004-260618
-  type: trojan
+  server: cf-socks.caoyuwu.eu.org
+  sub_tag: F003-260618
+  tls: true
+  type: vless
   udp: true
+  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
     path: /
-  name: 🇫🇷FR_247|2.7MB/s|A004-260618 [8a73ae1751d6]
+  xudp: true
+  packet-encoding: xudp
+  servername: cf-socks.caoyuwu.eu.org
+  name: 🇫🇷FR_141|724KB/s|F003-260618 [082024336835]
+- client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 117.55.232.3
+  sub_tag: K001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇺🇸US_442|750KB/s|K001-260618 [681493ec2324]
+- type: vless
+  server: 82.118.19.153
+  port: 443
+  udp: true
+  network: tcp
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  name: 🇩🇪DE_66|3.6MB/s|R002-260618 [b20796e6fc39]
+- type: vless
+  server: 152.228.139.33
+  port: 35108
+  udp: true
+  network: grpc
+  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
+  tls: true
+  servername: www.nvidia.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
+    short-id: 52add08b86a5ccea
+  grpc-opts:
+    grpc-service-name: grpc-common3
+  name: 🇫🇷FR_37|5.5MB/s|V003-260618 [c39d4c463135]
+- type: ss
+  server: 98.98.142.161
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+  name: 🇬🇧GB_30|3.3MB/s|A004-260618 [e912ba1f4fee]
+- client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 31.77.126.2
+  sub_tag: S004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+  name: 🇩🇪DE_88|736KB/s|S004-260618 [6efd1eb1b6b4]
 - client-fingerprint: chrome
   network: ws
   port: 443
@@ -209,55 +555,33 @@ proxies:
   servername: snip.edgeoneai.cc.cd
   name: 🇺🇸US_477|744KB/s|K001-260618 [1d7711388307]
 - type: vless
-  server: 169.40.42.74
-  port: 443
-  udp: true
-  network: raw
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  name: 🇺🇸US_389|1.5MB/s|A004-260618 [7b3d5e5048d2]
-- type: vless
-  server: 69.48.201.136
-  port: 30016
+  server: 104.18.0.181
+  port: 2052
   udp: true
   network: ws
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-  servername: zoom.us
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
   ws-opts:
-    path: /usserver
+    path: /rain1226
     headers:
-      Host: zoom.us
-  name: 🇺🇸US_448|801KB/s|A004-260618 [1f72b334a6b7]
-- server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  name: 🇺🇸US-15.204.247.206-0167
+      Host: eu02.123450908.xyz
+  name: 🇩🇪DE_83|1.3MB/s|M002-260618 [8d8e590b0307]
 - type: vless
-  server: 66.70.179.198
-  port: 2053
+  server: vless2.gem-audio2.us.ci
+  port: 443
   udp: true
-  network: raw
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  network: ws
+  uuid: f14f0e7d-bcb0-416b-855a-17344b0242b9
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-    short-id: 83f8317a948bb769
-  name: 🇨🇦CA_7|1.5MB/s|A004-260618 [ad51eeb021eb]
+  servername: vless2.gem-audio2.us.ci
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+  name: 🇫🇷FR_279|1.5MB/s|A004-260618 [361edbf9dbef]
 - client-fingerprint: chrome
   network: ws
   port: 443
-  server: 162.35.127.65
-  sub_tag: K001-260618
+  server: 195.133.17.250
+  sub_tag: A001-260618
   tls: true
   type: vless
   udp: true
@@ -265,46 +589,72 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /fp=chrome
   xudp: true
   packet-encoding: xudp
   servername: snip.edgeoneai.cc.cd
-  name: 🇺🇸US_455|891KB/s|K001-260618 [11e7d052067e]
-- server: 149.102.132.184
+  name: 🇳🇱NL_283|2.7MB/s|A001-260618 [9cbce0e00b10]
+- cipher: chacha20-ietf
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: 109.104.153.43
+  sub_tag: R002-260618
+  type: ssr
+  udp: true
+  name: 🇳🇱NL_255|505KB/s|R002-260618 [8b79f7273e58]
+- type: trojan
+  server: 31.57.190.34
+  port: 443
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+  name: 🇦🇪AE-31.57.190.34-0517 | clashnodefree.com
+- client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 195.133.92.228
+  sub_tag: F003-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇪🇸ES_13|970KB/s|F003-260618 [0b3bd7599e7d]
+- alterId: 0
+  cipher: auto
+  network: ws
   port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  name: 🇬🇧GB-149.102.132.184-0166
-- type: ss
-  server: 82.38.31.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 168.138.43.75
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
   udp: true
-  name: 🇬🇧GB-82.38.31.35-0103
-- type: ss
-  server: 82.38.31.3
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  name: 🇬🇧GB-82.38.31.3-0110
-- type: ss
-  server: 82.38.31.42
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  name: 🇬🇧GB-82.38.31.42-0104
-- server: 82.38.31.203
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  name: 🇬🇧GB-82.38.31.203-0053
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: none
+    path: /cctv13.m3u8
+  xudp: true
+  packet-encoding: xudp
+  servername: none
+  name: 🇯🇵JP_23|377KB/s|S004-260618 [89b8b85c813f]
 - type: vless
   server: 142.91.108.25
   port: 443
@@ -319,21 +669,6 @@ proxies:
     public-key: 9ZCYjybxMQ7JpE39B8u_Bo-alI1LIbt5ER0E-4yMjiM
     short-id: ea36c03d86f91287
   name: 🇯🇵JP_33|487KB/s|A004-260618 [9baaf6809ed5]
-- alterId: 0
-  cipher: auto
-  network: tcp
-  port: 18000
-  server: 149.88.23.202
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-  packet-encoding: xudp
-  servername: 149.88.23.202
-  name: 🇸🇬SG_4|994KB/s|A004-260618 [0078dd792eff]
 - alterId: '0'
   cipher: auto
   network: tcp
@@ -348,31 +683,60 @@ proxies:
   xudp: true
   packet-encoding: xudp
   name: 🇸🇬SG_2|866KB/s|C002-260622 [0402c143ab8a]
-- cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: 109.104.153.43
-  sub_tag: R002-260618
-  type: ssr
-  udp: true
-  name: 🇳🇱NL_255|505KB/s|R002-260618 [8b79f7273e58]
-- alterId: 0
-  cipher: auto
-  network: tcp
-  port: 18000
-  server: 149.88.23.207
+- client-fingerprint: chrome
+  network: ws
+  password: humanity
+  port: 443
+  server: 46.62.164.121
   skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
+  sni: www.pleadcourt.org
+  sub_tag: B007-260618
+  type: trojan
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-  packet-encoding: xudp
-  servername: telegram-leviko_v2ray
-  name: 🇸🇬SG_26|782KB/s|A004-260618 [0298ea3f8227]
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
+  name: 🇳🇱NL_231|283KB/s|B007-260618 [95d87fe0bb47]
+- type: vless
+  server: 193.163.203.170
+  port: 443
+  udp: true
+  network: tcp
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  name: 🇱🇻LV拉脱维亚丨yoyapai.com
+- type: vless
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  network: ws
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+  name: 🇦🇪AE_1|854KB/s|A003-260618 [6eaf5737334e]
+- type: vless
+  server: node-uk.connectsuite.org
+  port: 8443
+  udp: true
+  network: tcp
+  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
+  tls: true
+  servername: node-uk.connectsuite.org
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇬🇧GB_15|160KB/s|A004-260618 [53615d0e808e]
 - client-fingerprint: chrome
   encryption: none
   network: ws
@@ -394,51 +758,6 @@ proxies:
   servername: snip.edgeoneai.cc.cd
   name: 🇯🇵JP_74|567KB/s|F003-260618 [25fb3910ce85]
 - type: vless
-  server: 82.118.19.153
-  port: 443
-  udp: true
-  network: tcp
-  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-    short-id: 670ed9f350bd8ee0
-  name: 🇩🇪DE_66|3.6MB/s|R002-260618 [b20796e6fc39]
-- type: vless
-  server: 152.228.162.19
-  port: 80
-  udp: true
-  network: ws
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  ws-opts:
-    path: /vless/
-  name: ❓Other_12|1.4MB/s|B007-260618 [778edd07178d]
-- type: ss
-  server: 98.98.142.161
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-  name: 🇬🇧GB_30|3.3MB/s|A004-260618 [e912ba1f4fee]
-- type: vless
-  server: jp.yi-yi.xyz
-  port: 8443
-  udp: true
-  network: raw
-  uuid: 36c06e11-028b-40a1-a91f-c8f38f03e829
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: g3T4dVyrbNixv7HvSMlh91cYBa5kEsZCEInB7Xc_AEY
-    short-id: 956d8072a694ff37
-  name: 🇯🇵JP_82|402KB/s|A004-260618 [1839e414e50c]
-- type: vless
   server: 3.114.220.22
   port: 19645
   udp: true
@@ -452,17 +771,29 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   name: 🇯🇵JP_2|122KB/s|C002-260622 [7bb112b0be00]
-- type: vless
-  server: 104.18.0.181
-  port: 2052
+- cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  sub_tag: A003-260618
+  type: ss
   udp: true
-  network: ws
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  ws-opts:
-    path: /rain1226
-    headers:
-      Host: eu02.123450908.xyz
-  name: 🇩🇪DE_83|1.3MB/s|M002-260618 [8d8e590b0307]
+  name: 🇳🇱NL_40|3.0MB/s|A003-260618 [041f865582a1]
+- alterId: 0
+  cipher: auto
+  network: tcp
+  port: 18000
+  server: 149.88.23.202
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+  servername: 149.88.23.202
+  name: 🇸🇬SG_4|994KB/s|A004-260618 [0078dd792eff]
 - client-fingerprint: chrome
   network: ws
   password: humanity
@@ -479,6 +810,21 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /assignment
   name: 🇳🇱NL_221|474KB/s|B007-260618 [772ba2c4efbd]
+- alterId: 0
+  cipher: auto
+  network: tcp
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+  servername: telegram-leviko_v2ray
+  name: 🇸🇬SG_26|782KB/s|A004-260618 [0298ea3f8227]
 - network: ws
   port: 80
   server: v2ray.simspeedup.com
@@ -496,25 +842,6 @@ proxies:
   packet-encoding: xudp
   servername: v2ray.simspeedup.com
   name: ❓Other_18|499KB/s|F003-260618 [fc293f68ad29]
-- client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 195.133.17.250
-  sub_tag: A001-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-  packet-encoding: xudp
-  servername: snip.edgeoneai.cc.cd
-  name: 🇳🇱NL_283|2.7MB/s|A001-260618 [9cbce0e00b10]
 - client-fingerprint: chrome
   encryption: none
   network: ws
@@ -536,20 +863,6 @@ proxies:
   servername: snip.edgeoneai.cc.cd
   name: 🇭🇰HK_54|657KB/s|F003-260618 [0454db9d1325]
 - type: vless
-  server: 104.16.10.2
-  port: 443
-  udp: true
-  network: ws
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  tls: true
-  servername: v2ray.simspeedup.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ws
-    headers:
-      Host: v2ray.simspeedup.com
-  name: 🇹🇭TH_2|386KB/s|B007-260618 [95533f5f8253]
-- type: vless
   server: v2ray.simspeedup.com
   port: 80
   udp: true
@@ -560,82 +873,6 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
   name: 🇹🇭TH_9|412KB/s|A001-260618 [c51b62bb55ff]
-- client-fingerprint: chrome
-  network: ws
-  password: humanity
-  port: 443
-  server: 46.62.164.121
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /assignment
-  name: 🇳🇱NL_231|283KB/s|B007-260618 [95d87fe0bb47]
-- client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 195.133.92.228
-  sub_tag: F003-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-  xudp: true
-  packet-encoding: xudp
-  servername: snip.edgeoneai.cc.cd
-  name: 🇪🇸ES_13|970KB/s|F003-260618 [0b3bd7599e7d]
-- type: vless
-  server: 152.228.139.33
-  port: 35108
-  udp: true
-  network: grpc
-  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-  tls: true
-  servername: www.nvidia.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
-    short-id: 52add08b86a5ccea
-  grpc-opts:
-    grpc-service-name: grpc-common3
-  name: 🇫🇷FR_37|5.5MB/s|V003-260618 [c39d4c463135]
-- type: vless
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  network: ws
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-  name: 🇦🇪AE_1|854KB/s|A003-260618 [6eaf5737334e]
-- type: vless
-  server: 193.163.203.170
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  name: 🇱🇻LV拉脱维亚丨yoyapai.com
 - client-fingerprint: chrome
   encryption: none
   network: ws
@@ -657,24 +894,63 @@ proxies:
   packet-encoding: xudp
   servername: snip.edgeoneai.cc.cd
   name: 🇸🇬SG_118|667KB/s|F003-260618 [f1e248dcab2c]
-- type: trojan
-  server: 31.57.190.34
+- client-fingerprint: chrome
+  network: ws
   port: 443
-  password: humanity
-  sni: www.pleadcourt.org
+  server: 188.166.231.184
+  sub_tag: K001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇸🇬SG_133|560KB/s|K001-260618 [15a1b9e8e239]
+- client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: 216.173.67.144
+  sub_tag: F003-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+  name: 🇸🇬SG_119|741KB/s|F003-260618 [c931786acebd]
+- server: 120.48.133.162
+  port: 10086
+  type: vmess
+  uuid: a01e5d56-464f-45b9-b600-164db4700162
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /assignment
-  name: 🇦🇪AE-31.57.190.34-0517 | clashnodefree.com
-- type: ss
-  server: 202.50.253.54
-  port: 19999
+    path: /
+  name: 🇨🇳CN-120.48.133.162-0392
+- server: 51.222.155.113
+  port: 5601
+  type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  skip-cert-verify: true
-  udp: true
-  name: US美国(mibei77.com 米贝节点分享)_27
+  password: Y6R9pAtvxxzmGC
+  name: 🇨🇦CA-51.222.155.113-0217
 - client-fingerprint: chrome
   network: tcp
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
@@ -691,95 +967,78 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
-  name: 🇯🇵JP-191.223.221.53-0147
-- type: vless
-  server: node-uk.connectsuite.org
-  port: 8443
-  udp: true
-  network: tcp
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-  tls: true
-  servername: node-uk.connectsuite.org
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇬🇧GB_15|160KB/s|A004-260618 [53615d0e808e]
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: none
-    path: /cctv13.m3u8
-  xudp: true
-  packet-encoding: xudp
-  servername: none
-  name: 🇯🇵JP_23|377KB/s|S004-260618 [89b8b85c813f]
+  name: 🇯🇵JP-191.223.221.53-0161
 proxy-groups:
 - name: AUTO
   type: select
   proxies:
-  - 🇫🇷FR_290|1.2MB/s|A004-260618 [46de6a0178f0]
-  - 🇫🇷FR_284|1.8MB/s|F003-260618 [821aa12cf328]
-  - 🇫🇷FR_15|1.4MB/s|A004-260618 [fc38c1a6c18e]
-  - 🇫🇷FR_114|4.7MB/s|M003-260806 [6814268b19fc]
-  - 🇫🇷FR_61|792KB/s|K001-260618 [7ee212c10600]
-  - 🇫🇷FR_280|6.6MB/s|F003-260618 [99d6b81147f0]
-  - 🇫🇷FR_60|976KB/s|P002-260618 [832b63a63111]
   - 🇫🇷FR_217|5.4MB/s|S004-260618 [9f25b14ee017]
-  - 🇺🇸US-185.215.132.18-0095
-  - 🇫🇷FR_17|495KB/s|M003-260806 [273b0a6798e5]
-  - 🇺🇸US_188|958KB/s|A004-260618 [469691940756]
-  - 🇫🇷FR_247|2.7MB/s|A004-260618 [8a73ae1751d6]
-  - 🇺🇸US_477|744KB/s|K001-260618 [1d7711388307]
-  - 🇺🇸US_389|1.5MB/s|A004-260618 [7b3d5e5048d2]
-  - 🇺🇸US_448|801KB/s|A004-260618 [1f72b334a6b7]
-  - 🇺🇸US-15.204.247.206-0167
+  - 🇫🇷FR_15|1.4MB/s|A004-260618 [fc38c1a6c18e]
+  - 🇫🇷FR_280|6.6MB/s|F003-260618 [99d6b81147f0]
+  - 🇫🇷FR_290|1.2MB/s|A004-260618 [46de6a0178f0]
   - 🇨🇦CA_7|1.5MB/s|A004-260618 [ad51eeb021eb]
+  - 🇺🇸US_389|1.5MB/s|A004-260618 [7b3d5e5048d2]
+  - 🇫🇷FR_60|976KB/s|P002-260618 [832b63a63111]
+  - 🇫🇷FR_284|1.8MB/s|F003-260618 [821aa12cf328]
+  - 🇫🇷FR_191|956KB/s|M003-260806 [e37a62453c72]
+  - 🇺🇸US-185.215.132.18-0053
+  - 🇫🇷FR_114|4.7MB/s|M003-260806 [6814268b19fc]
+  - 🇫🇷FR_149|336KB/s|B007-260618 [39e764cc5f1e]
+  - 🇫🇷FR_201|500KB/s|M003-260806 [5d74d5650830]
+  - 🇫🇷FR_187|1.2MB/s|M003-260806 [084c103d595e]
+  - 🇫🇷FR_262|421KB/s|F003-260618 [766a91d6aca0]
+  - 🇫🇷FR_199|2.3MB/s|M003-260806 [afd146c219e5]
+  - 🇫🇷FR_135|592KB/s|M002-260618 [3d4b9f52f153]
+  - 🇫🇷FR_61|792KB/s|K001-260618 [7ee212c10600]
   - 🇺🇸US_455|891KB/s|K001-260618 [11e7d052067e]
-  - 🇬🇧GB-149.102.132.184-0166
-  - 🇬🇧GB-82.38.31.35-0103
-  - 🇬🇧GB-82.38.31.3-0110
+  - 🇺🇸US-15.204.247.206-0147
+  - 🇺🇸US_448|801KB/s|A004-260618 [1f72b334a6b7]
+  - 🇫🇷FR_232|2.7MB/s|R002-260618 [215214998675]
+  - 🇫🇷FR_17|495KB/s|M003-260806 [273b0a6798e5]
+  - 🇫🇷FR_254|356KB/s|K001-260618 [ec92deb18f1d]
   - 🇬🇧GB-82.38.31.42-0104
-  - 🇬🇧GB-82.38.31.203-0053
-  - 🇯🇵JP_33|487KB/s|A004-260618 [9baaf6809ed5]
-  - 🇸🇬SG_4|994KB/s|A004-260618 [0078dd792eff]
-  - 🇸🇬SG_2|866KB/s|C002-260622 [0402c143ab8a]
-  - 🇳🇱NL_255|505KB/s|R002-260618 [8b79f7273e58]
-  - 🇸🇬SG_26|782KB/s|A004-260618 [0298ea3f8227]
-  - 🇯🇵JP_74|567KB/s|F003-260618 [25fb3910ce85]
-  - 🇩🇪DE_66|3.6MB/s|R002-260618 [b20796e6fc39]
-  - ❓Other_12|1.4MB/s|B007-260618 [778edd07178d]
-  - 🇬🇧GB_30|3.3MB/s|A004-260618 [e912ba1f4fee]
-  - 🇯🇵JP_82|402KB/s|A004-260618 [1839e414e50c]
-  - 🇯🇵JP_2|122KB/s|C002-260622 [7bb112b0be00]
-  - 🇩🇪DE_83|1.3MB/s|M002-260618 [8d8e590b0307]
-  - 🇳🇱NL_221|474KB/s|B007-260618 [772ba2c4efbd]
-  - ❓Other_18|499KB/s|F003-260618 [fc293f68ad29]
-  - 🇳🇱NL_283|2.7MB/s|A001-260618 [9cbce0e00b10]
-  - 🇭🇰HK_54|657KB/s|F003-260618 [0454db9d1325]
-  - 🇹🇭TH_2|386KB/s|B007-260618 [95533f5f8253]
-  - 🇹🇭TH_9|412KB/s|A001-260618 [c51b62bb55ff]
-  - 🇳🇱NL_231|283KB/s|B007-260618 [95d87fe0bb47]
-  - 🇪🇸ES_13|970KB/s|F003-260618 [0b3bd7599e7d]
-  - 🇫🇷FR_37|5.5MB/s|V003-260618 [c39d4c463135]
-  - 🇦🇪AE_1|854KB/s|A003-260618 [6eaf5737334e]
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇸🇬SG_118|667KB/s|F003-260618 [f1e248dcab2c]
-  - 🇦🇪AE-31.57.190.34-0517 | clashnodefree.com
+  - 🇬🇧GB-82.38.31.3-0110
+  - 🇬🇧GB-82.38.31.203-0085
+  - 🇫🇷FR_189|423KB/s|F003-260618 [e2f2ce173003]
+  - 🇬🇧GB-82.38.31.35-0103
   - US美国(mibei77.com 米贝节点分享)_27
-  - 🇯🇵JP_21|69KB/s|C001-260618 [10fb7f5021df]
-  - 🇯🇵JP-191.223.221.53-0147
-  - 🇬🇧GB_15|160KB/s|A004-260618 [53615d0e808e]
+  - 🇺🇸US_188|958KB/s|A004-260618 [469691940756]
+  - ❓Other_12|1.4MB/s|B007-260618 [778edd07178d]
+  - 🇫🇷FR_141|724KB/s|F003-260618 [082024336835]
+  - 🇺🇸US_442|750KB/s|K001-260618 [681493ec2324]
+  - 🇩🇪DE_66|3.6MB/s|R002-260618 [b20796e6fc39]
+  - 🇫🇷FR_37|5.5MB/s|V003-260618 [c39d4c463135]
+  - 🇬🇧GB_30|3.3MB/s|A004-260618 [e912ba1f4fee]
+  - 🇩🇪DE_88|736KB/s|S004-260618 [6efd1eb1b6b4]
+  - 🇺🇸US_477|744KB/s|K001-260618 [1d7711388307]
+  - 🇩🇪DE_83|1.3MB/s|M002-260618 [8d8e590b0307]
+  - 🇫🇷FR_279|1.5MB/s|A004-260618 [361edbf9dbef]
+  - 🇳🇱NL_283|2.7MB/s|A001-260618 [9cbce0e00b10]
+  - 🇳🇱NL_255|505KB/s|R002-260618 [8b79f7273e58]
+  - 🇦🇪AE-31.57.190.34-0517 | clashnodefree.com
+  - 🇪🇸ES_13|970KB/s|F003-260618 [0b3bd7599e7d]
   - 🇯🇵JP_23|377KB/s|S004-260618 [89b8b85c813f]
+  - 🇯🇵JP_33|487KB/s|A004-260618 [9baaf6809ed5]
+  - 🇸🇬SG_2|866KB/s|C002-260622 [0402c143ab8a]
+  - 🇳🇱NL_231|283KB/s|B007-260618 [95d87fe0bb47]
+  - 🇱🇻LV拉脱维亚丨yoyapai.com
+  - 🇦🇪AE_1|854KB/s|A003-260618 [6eaf5737334e]
+  - 🇬🇧GB_15|160KB/s|A004-260618 [53615d0e808e]
+  - 🇯🇵JP_74|567KB/s|F003-260618 [25fb3910ce85]
+  - 🇯🇵JP_2|122KB/s|C002-260622 [7bb112b0be00]
+  - 🇳🇱NL_40|3.0MB/s|A003-260618 [041f865582a1]
+  - 🇸🇬SG_4|994KB/s|A004-260618 [0078dd792eff]
+  - 🇳🇱NL_221|474KB/s|B007-260618 [772ba2c4efbd]
+  - 🇸🇬SG_26|782KB/s|A004-260618 [0298ea3f8227]
+  - ❓Other_18|499KB/s|F003-260618 [fc293f68ad29]
+  - 🇭🇰HK_54|657KB/s|F003-260618 [0454db9d1325]
+  - 🇹🇭TH_9|412KB/s|A001-260618 [c51b62bb55ff]
+  - 🇸🇬SG_118|667KB/s|F003-260618 [f1e248dcab2c]
+  - 🇸🇬SG_133|560KB/s|K001-260618 [15a1b9e8e239]
+  - 🇸🇬SG_119|741KB/s|F003-260618 [c931786acebd]
+  - 🇨🇳CN-120.48.133.162-0392
+  - 🇨🇦CA-51.222.155.113-0217
+  - 🇯🇵JP_21|69KB/s|C001-260618 [10fb7f5021df]
+  - 🇯🇵JP-191.223.221.53-0161
 rules:
 - MATCH,AUTO
