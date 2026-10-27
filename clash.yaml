@@ -1,76 +1,9 @@
 mixed-port: 7890
 mode: rule
 proxies:
-- type: vless
-  server: 15.204.97.197
-  port: 23576
-  udp: true
-  network: tcp
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  name: United States/Hillsboro [TG]
-- type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  skip-cert-verify: false
-  udp: true
-  name: ❓未知丨yoyapai.com_55
-- type: vless
-  server: 51.81.203.63
-  port: 443
-  udp: true
-  network: tcp
-  uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
-    short-id: 4477382ff6d3d41c
-  name: 🇺🇸US_70|909KB/s|A004-260618 [469691940756]
-- type: vless
-  server: 8.47.69.60
-  port: 443
-  udp: true
-  network: ws
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: unsafe
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 🇫🇷FR_261|1.4MB/s|B007-260618 [3c68a999fbc8]
-- client-fingerprint: chrome
-  network: tcp
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  port: 443
-  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  sub_tag: A004-260618
-  type: trojan
-  udp: true
-  name: 🇺🇸US_345|824KB/s|A004-260618 [030c6ae4a78c]
 - network: ws
   port: 8080
-  server: 104.18.35.86
+  server: 188.114.97.6
   sub_tag: A004-260618
   type: vless
   udp: true
@@ -78,86 +11,25 @@ proxies:
   ws-opts:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /sg-melbi
   xudp: true
   packet-encoding: xudp
   servername: hhlfy.twiladaphne.ndjp.net
-  name: 🇫🇷FR_53|1.3MB/s|A004-260618 [fc38c1a6c18e]
-- type: vless
-  server: 104.26.4.2
-  port: 443
+  name: 🇫🇷FR_43|851KB/s|A004-260618 [4645cf60e6be]
+- cipher: chacha20-ietf
+  obfs: tls1.2_ticket_auth
+  obfs-param: f7d23929.douyin.com
+  password: di15PV
+  port: 29790
+  protocol: auth_aes128_md5
+  protocol-param: 23929:563537032
+  server: api.meituan88.com
+  sub_tag: R002-260618
+  type: ssr
   udp: true
-  network: ws
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-  name: 🇫🇷FR_73|423KB/s|K001-260618 [7ee212c10600]
-- client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  sub_tag: P002-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-  servername: ccc.010304.xyz
-  name: 🇫🇷FR_60|751KB/s|P002-260618 [832b63a63111]
-- type: vless
-  server: 104.16.162.89
-  port: 8080
-  udp: true
-  network: ws
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 🇫🇷FR_156|746KB/s|A004-260618 [46de6a0178f0]
-- type: vless
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  network: ws
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  tls: true
-  servername: all.speedtest03.ccwu.cc
-  client-fingerprint: unsafe
-  ws-opts:
-    path: /
-    headers:
-      Host: all.speedtest03.ccwu.cc
-  name: 🇫🇷FR_145|975KB/s|M003-260806 [084c103d595e]
-- client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 104.18.0.1
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  ws-opts:
-    headers:
-      Host: all.speedtest03.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: all.speedtest03.ccwu.cc
-  name: 🇫🇷FR_136|1.4MB/s [f91f8159ead9]
+  name: 🇺🇸US_451|388KB/s|R002-260618 [882fbd16660b]
 - client-fingerprint: chrome
   encryption: none
   network: ws
@@ -178,23 +50,48 @@ proxies:
   packet-encoding: xudp
   servername: ccc.010304.xyz
   name: 🇫🇷FR_155|954KB/s|M002-260618 [9e7ce0ce2248]
-- network: ws
-  port: 8080
-  server: 188.114.97.6
-  sub_tag: A004-260618
-  type: vless
+- type: vless
+  server: 8.47.69.60
+  port: 443
   udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  network: ws
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: unsafe
   ws-opts:
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  servername: hhlfy.twiladaphne.ndjp.net
-  name: 🇫🇷FR_43|851KB/s|A004-260618 [4645cf60e6be]
+      Host: ccc.010304.xyz
+  name: 🇫🇷FR_261|1.4MB/s|B007-260618 [3c68a999fbc8]
+- type: vless
+  server: 104.26.4.2
+  port: 443
+  udp: true
+  network: ws
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+  name: 🇫🇷FR_73|423KB/s|K001-260618 [7ee212c10600]
+- type: vless
+  server: 172.64.152.241
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  skip-cert-verify: false
+  udp: true
+  name: ❓未知丨yoyapai.com_55
 - client-fingerprint: chrome
   encryption: none
   network: ws
@@ -215,32 +112,23 @@ proxies:
   packet-encoding: xudp
   servername: ccc.010304.xyz
   name: 🇫🇷FR_201|843KB/s|S004-260618 [e18d86f96365]
-- cipher: rc4-md5
-  obfs: plain
-  obfs-param: 6f5218522.douyin.com
-  password: di15PV
-  port: 27561
-  protocol: auth_aes128_md5
-  protocol-param: 218522:0hfCJk
-  server: api.meituan88.com
-  sub_tag: R002-260618
-  type: ssr
+- network: ws
+  port: 8080
+  server: 104.18.35.86
+  sub_tag: A004-260618
+  type: vless
   udp: true
-  name: 🇺🇸US_474|616KB/s|R002-260618 [682de90470ca]
-- type: vless
-  server: tk1.high-speed-test-56424.me
-  port: 443
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  servername: aws.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  skip-cert-verify: false
-  udp: true
-  name: 🇺🇸US美国丨yoyapai.com_15
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+  name: 🇫🇷FR_53|1.3MB/s|A004-260618 [fc38c1a6c18e]
 - type: vless
   server: ccc.010304.xyz
   port: 443
@@ -255,30 +143,31 @@ proxies:
     headers:
       Host: ccc.010304.xyz
   name: 🇫🇷FR_61|1.4MB/s|M003-260806 [273b0a6798e5]
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 172.66.47.45
-  sub_tag: B007-260618
-  tls: true
-  type: vless
+- type: vless
+  server: 104.16.162.89
+  port: 8080
   udp: true
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  network: ws
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
+    path: /sg-melbi
     headers:
-      Host: ezaccess-project-f62c30.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
-  name: 🇫🇷FR_94|753KB/s|B007-260618 [39e764cc5f1e]
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 🇫🇷FR_156|746KB/s|A004-260618 [46de6a0178f0]
+- type: vless
+  server: 15.204.97.197
+  port: 23576
+  udp: true
+  network: tcp
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  name: United States/Hillsboro [TG]
 - client-fingerprint: chrome
   network: ws
   port: 443
@@ -298,39 +187,119 @@ proxies:
   packet-encoding: xudp
   servername: tamoai.ccwu.cc
   name: 🇫🇷FR_276|2.8MB/s|A004-260618 [bc64588db53e]
+- type: vless
+  server: 51.81.203.63
+  port: 443
+  udp: true
+  network: tcp
+  uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.icloud.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
+    short-id: 4477382ff6d3d41c
+  name: 🇺🇸US_70|909KB/s|A004-260618 [469691940756]
+- client-fingerprint: chrome
+  network: tcp
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  port: 443
+  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+  name: 🇺🇸US_345|824KB/s|A004-260618 [030c6ae4a78c]
 - client-fingerprint: chrome
   network: ws
   port: 443
-  server: 104.17.44.17
-  sub_tag: K001-260618
+  server: 172.67.76.40
+  sub_tag: P002-260618
   tls: true
   type: vless
   udp: true
-  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: top-e4s.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /fp=unsafe
-  xudp: true
-  packet-encoding: xudp
-  servername: top-e4s.pages.dev
-  name: 🇫🇷FR_236|615KB/s|K001-260618 [ec92deb18f1d]
+      Host: ccc.010304.xyz
+    path: /
+  servername: ccc.010304.xyz
+  name: 🇫🇷FR_60|751KB/s|P002-260618 [832b63a63111]
 - type: vless
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  network: ws
-  uuid: 40ca0d8c-0641-4e2d-a701-9fd8330daf6d
+  server: tk1.high-speed-test-56424.me
+  port: 443
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  servername: aws.amazon.com
   tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  flow: xtls-rprx-vision
   client-fingerprint: chrome
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
+  skip-cert-verify: false
+  udp: true
+  name: 🇺🇸US美国丨yoyapai.com_15
+- server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  name: 🇺🇸US-15.204.247.206-0279
+- cipher: rc4-md5
+  obfs: plain
+  obfs-param: f7d23929.douyin.com
+  password: di15PV
+  port: 39266
+  protocol: auth_aes128_md5
+  protocol-param: 23929:563537032
+  server: api.meituan88.com
+  sub_tag: R002-260618
+  type: ssr
+  udp: true
+  name: 🇺🇸US_450|584KB/s|R002-260618 [c8c20681e01a]
+- type: vless
+  server: 169.40.42.74
+  port: 443
+  udp: true
+  network: raw
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  name: 🇺🇸US_253|1.5MB/s|A004-260618 [7b3d5e5048d2]
+- type: vless
+  server: 66.70.179.198
+  port: 2053
+  udp: true
+  network: raw
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+  name: 🇨🇦CA_6|1.5MB/s|A004-260618 [ad51eeb021eb]
+- server: 172.66.0.1
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /ws
     headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  name: 🇺🇸US_434|552KB/s|M003-260806 [e4ae383f5861]
+      Host: vmess.lbw666.dpdns.org
+  name: 🏁RELAY-172.66.0.1-1194
 - client-fingerprint: chrome
   encryption: none
   fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
@@ -352,115 +321,13 @@ proxies:
   packet-encoding: xudp
   servername: firefox.com
   name: 🇺🇸US_489|855KB/s|B007-260618 [bc3890462092]
-- type: vless
-  server: 66.70.179.198
-  port: 2053
-  udp: true
-  network: raw
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-    short-id: 83f8317a948bb769
-  name: 🇨🇦CA_6|1.5MB/s|A004-260618 [ad51eeb021eb]
-- cipher: chacha20-ietf
-  obfs: plain
-  obfs-param: 6f5218522.douyin.com
-  password: di15PV
-  port: 44983
-  protocol: auth_aes128_md5
-  protocol-param: 218522:0hfCJk
-  server: api.meituan88.com
-  sub_tag: R002-260618
-  type: ssr
-  udp: true
-  name: 🇺🇸US_449|613KB/s|R002-260618 [9958c86e78ec]
-- alterId: '0'
-  cipher: auto
-  network: ws
-  port: 80
-  server: us-23.hihu.net
-  skip-cert-verify: false
-  sub_tag: C002-260622
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 172.66.0.251
-    path: /870ao26f
-  xudp: true
-  packet-encoding: xudp
-  name: 🇺🇸US_467|804KB/s|C002-260622 [c996607c4f38]
-- server: 191.223.221.53
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
-  name: 🇯🇵JP-191.223.221.53-0194
-- type: vless
-  server: 169.40.42.74
-  port: 443
-  udp: true
-  network: raw
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  name: 🇺🇸US_253|1.5MB/s|A004-260618 [7b3d5e5048d2]
-- server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  name: 🇺🇸US-15.204.247.206-0279
-- type: vless
-  server: 103.75.118.228
-  port: 12683
-  udp: true
-  network: tcp
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  name: 🇯🇵JP_31|563KB/s [55d29455977c]
 - type: ss
-  server: 82.38.31.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 5.188.181.201
+  port: 9005
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
   udp: true
-  name: 🇬🇧GB-82.38.31.35-0139
-- client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: cf-socks.caoyuwu.eu.org
-  sub_tag: F003-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: cf-socks.caoyuwu.eu.org
-  name: 🇫🇷FR_21|758KB/s|F003-260618 [082024336835]
+  name: 🇪🇸ES-5.188.181.201-0173 | clashnodefree.com
 - type: ss
   server: 82.38.31.3
   port: 8080
@@ -475,6 +342,29 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
   name: 🇬🇧GB-82.38.31.42-0238
+- type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: none
+  name: ❓Other_3|305KB/s|A004-260618 [8eee8687bfd8]
+- type: vless
+  server: 103.75.118.228
+  port: 12683
+  udp: true
+  network: tcp
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  name: 🇯🇵JP_31|563KB/s [55d29455977c]
 - type: vless
   server: 5.175.205.190
   port: 27774
@@ -482,6 +372,13 @@ proxies:
   network: tcp
   uuid: 653137c6-474e-4a3d-9a20-5a5afb3d4a4f
   name: 🇩🇪DE_129|3.5MB/s|A004-260618 [d56c8f627b94]
+- type: ss
+  server: 82.38.31.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  name: 🇬🇧GB-82.38.31.35-0139
 - alterId: '0'
   cipher: auto
   network: tcp
@@ -512,26 +409,18 @@ proxies:
   servername: 149.88.23.202
   name: 🇸🇬SG_9|949KB/s|A004-260618 [0078dd792eff]
 - type: vless
-  server: 3.114.220.22
-  port: 18007
+  server: 212.227.235.66
+  port: 2053
   udp: true
-  network: tcp
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
+  network: raw
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
   tls: true
   servername: www.apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  name: 🇯🇵JP_10|319KB/s|C002-260622 [5c8518ecb814]
-- type: ss
-  server: 5.188.181.201
-  port: 9005
-  cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
-  udp: true
-  name: 🇪🇸ES-5.188.181.201-0173 | clashnodefree.com
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+    short-id: 29e8dcd2b37aaa7f
+  name: 🇪🇸ES_1|2.1MB/s|A004-260618 [f4a406c4202c]
 - alterId: 0
   cipher: auto
   network: tcp
@@ -547,32 +436,6 @@ proxies:
   packet-encoding: xudp
   servername: telegram-leviko_v2ray
   name: 🇸🇬SG_51|824KB/s|A004-260618 [0298ea3f8227]
-- delay: 1527
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjtw.m2k699.com
-  skip-cert-verify: false
-  sni: tjtw.m2k699.com
-  sub_tag: G001-260618
-  type: trojan
-  udp: true
-  network: tcp
-  name: 🇹🇼TW_40|683KB/s|G001-260618 [0c0266a17437]
-- type: vless
-  server: 165.154.63.139
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
-    short-id: ca4aedd4
-  name: 🇭🇰HK_59|677KB/s|R002-260618 [cd15849f5f42]
 - type: vless
   server: 51.158.206.98
   port: 23576
@@ -587,31 +450,13 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   name: 🇳🇱NL_156|3.8MB/s|V007-260618 [9db6b1a2f44d]
-- type: vless
-  server: 147.45.47.83
-  port: 443
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+- type: ss
+  server: 98.98.142.161
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ozon.ru
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  client-fingerprint: chrome
-  name: 🇷🇺 Russia [TG]
-- type: vless
-  server: 147.45.47.83
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ozon.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  name: 🇫🇷FR_258|2.2MB/s|B007-260618 [dcc4b8c49f01]
+  name: 🇬🇧GB_22|4.2MB/s|A004-260618 [e912ba1f4fee]
 - type: vless
   server: 152.228.139.33
   port: 35108
@@ -627,26 +472,275 @@ proxies:
   grpc-opts:
     grpc-service-name: grpc-common3
   name: 🇫🇷FR_122|5.6MB/s|V003-260618 [c39d4c463135]
-- type: ss
-  server: 98.98.142.161
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-  name: 🇬🇧GB_22|4.2MB/s|A004-260618 [e912ba1f4fee]
 - type: vless
-  server: 212.227.235.66
-  port: 2053
+  server: 165.154.63.139
+  port: 443
   udp: true
-  network: raw
-  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  network: tcp
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
+    short-id: ca4aedd4
+  name: 🇭🇰HK_59|677KB/s|R002-260618 [cd15849f5f42]
+- server: 162.159.253.41
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  name: 🏁RELAY-162.159.253.41-1037
+- type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  skip-cert-verify: true
+  udp: true
+  name: US美国(mibei77.com 米贝节点分享)_16
+- type: vless
+  server: 213.152.165.201
+  port: 2092
+  udp: true
+  network: tcp
+  uuid: 901cb432-3807-404a-9bb8-987814b000ca
+  flow: xtls-rprx-vision
   tls: true
   servername: www.apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-    short-id: 29e8dcd2b37aaa7f
-  name: 🇪🇸ES_1|2.1MB/s|A004-260618 [f4a406c4202c]
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  name: 🇫🇷FR_283|2.7MB/s|M003-260806 [df46f3705788]
+- network: raw
+  port: 2052
+  server: edge10.cyrionflare.com
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  xudp: true
+  packet-encoding: xudp
+  name: 🇷🇴RO_99|1.2MB/s|A004-260618 [08fd904781d0]
+- port: 20001
+  server: site.teslamotor.site
+  sub_tag: P002-260618
+  tls: false
+  type: vless
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  udp: true
+  network: tcp
+  name: 🇵🇱PL_23|3.3MB/s|P002-260618 [07605fe0fcd0]
+- type: vless
+  server: 3.114.220.22
+  port: 19645
+  udp: true
+  network: tcp
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  name: 🇯🇵JP_27|104KB/s|C002-260622 [7bb112b0be00]
+- cipher: chacha20-ietf
+  obfs: plain
+  obfs-param: 6f5218522.douyin.com
+  password: di15PV
+  port: 44983
+  protocol: auth_aes128_md5
+  protocol-param: 218522:0hfCJk
+  server: api.meituan88.com
+  sub_tag: R002-260618
+  type: ssr
+  udp: true
+  name: 🇺🇸US_449|613KB/s|R002-260618 [9958c86e78ec]
+- cipher: chacha20-ietf-poly1305
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  port: 49917
+  server: staging.lastilhame.monster
+  sub_tag: M001-260618
+  type: ss
+  udp: true
+  name: 🇳🇱NL_291|1.7MB/s|M001-260618 [003d743407b2]
+- type: vless
+  server: 195.123.240.65
+  port: 443
+  udp: true
+  network: tcp
+  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
+    short-id: 19296c9f1bf9c7b1
+  name: 🇺🇸US_141|718KB/s|A004-260618 [9d1137930eca]
+- cipher: rc4-md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f5218522.douyin.com
+  password: di15PV
+  port: 61558
+  protocol: auth_aes128_md5
+  protocol-param: 218522:0hfCJk
+  server: api.meituan88.com
+  sub_tag: R002-260618
+  type: ssr
+  udp: true
+  name: 🇺🇸US_478|64KB/s|R002-260618 [3c282bb5ceae]
+- type: vless
+  server: 67.159.49.26
+  port: 2093
+  udp: true
+  network: tcp
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  name: 🇨🇦CA_50|348KB/s|A004-260618 [a74a77bc4648]
+- network: ws
+  port: 2052
+  server: freesocks.work
+  sub_tag: M002-260618
+  type: vless
+  udp: true
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
+  xudp: true
+  packet-encoding: xudp
+  servername: freesocks.work
+  name: 🇩🇪DE_108|324KB/s|M002-260618 [c704e0e17f3b]
+- alterId: '0'
+  cipher: auto
+  network: ws
+  port: 80
+  server: us-23.hihu.net
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 172.66.0.251
+    path: /870ao26f
+  xudp: true
+  packet-encoding: xudp
+  name: 🇺🇸US_467|804KB/s|C002-260622 [c996607c4f38]
+- type: vless
+  server: 193.163.203.170
+  port: 443
+  udp: true
+  network: tcp
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  flow: xtls-rprx-vision
+  tls: true
+  servername: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  name: 🇱🇻LV拉脱维亚丨yoyapai.com
+- type: vless
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  network: ws
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+  name: 🇦🇪AE_2|716KB/s|A003-260618 [6eaf5737334e]
+- cipher: rc4-md5
+  obfs: plain
+  obfs-param: 6f5218522.douyin.com
+  password: di15PV
+  port: 27561
+  protocol: auth_aes128_md5
+  protocol-param: 218522:0hfCJk
+  server: api.meituan88.com
+  sub_tag: R002-260618
+  type: ssr
+  udp: true
+  name: 🇺🇸US_474|616KB/s|R002-260618 [682de90470ca]
+- type: vless
+  server: 5.34.177.164
+  port: 443
+  udp: true
+  network: tcp
+  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
+  flow: xtls-rprx-vision
+  tls: true
+  servername: gateway.icloud.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA
+    short-id: b2efed6d157e7bb0
+  name: 🇸🇬SG_40|94KB/s|A004-260618 [de3718db92ca]
+- type: vless
+  server: 3.114.220.22
+  port: 18007
+  udp: true
+  network: tcp
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  name: 🇯🇵JP_10|319KB/s|C002-260622 [5c8518ecb814]
+- type: vmess
+  server: 47.76.57.83
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+  tls: true
+  name: 🇨🇳CN-47.76.57.83-0615
+- type: vless
+  server: node-uk.connectsuite.org
+  port: 8443
+  udp: true
+  network: tcp
+  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
+  tls: true
+  servername: node-uk.connectsuite.org
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇬🇧GB_50|396KB/s|P002-260618 [9185c4a9ef02]
 - type: vless
   server: 82.118.19.153
   port: 443
@@ -668,327 +762,85 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   name: 🇬🇧GB-82.38.31.203-0117
-- cipher: chacha20-ietf-poly1305
-  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
-  port: 49917
-  server: staging.lastilhame.monster
-  sub_tag: M001-260618
-  type: ss
-  udp: true
-  name: 🇳🇱NL_291|1.7MB/s|M001-260618 [003d743407b2]
-- port: 20001
-  server: site.teslamotor.site
-  sub_tag: P002-260618
-  tls: false
-  type: vless
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-  udp: true
-  network: tcp
-  name: 🇵🇱PL_23|3.3MB/s|P002-260618 [07605fe0fcd0]
-- network: raw
-  port: 2052
-  server: edge10.cyrionflare.com
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  xudp: true
-  packet-encoding: xudp
-  name: 🇷🇴RO_99|1.2MB/s|A004-260618 [08fd904781d0]
-- type: vless
-  server: 5.34.177.164
-  port: 443
-  udp: true
-  network: tcp
-  uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
-  flow: xtls-rprx-vision
-  tls: true
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA
-    short-id: b2efed6d157e7bb0
-  name: 🇸🇬SG_40|94KB/s|A004-260618 [de3718db92ca]
 - client-fingerprint: chrome
-  network: tcp
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjmg2.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  sub_tag: C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.6.70
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  sub_tag: B007-260618
   type: trojan
   udp: true
-  name: 🇺🇸US_477|126KB/s|C002-260622 [01b35806a8e2]
-- type: vless
-  server: 3.114.220.22
-  port: 19645
-  udp: true
-  network: tcp
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  name: 🇯🇵JP_27|104KB/s|C002-260622 [7bb112b0be00]
-- type: vless
-  server: 213.152.165.201
-  port: 2092
-  udp: true
-  network: tcp
-  uuid: 901cb432-3807-404a-9bb8-987814b000ca
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  name: 🇫🇷FR_283|2.7MB/s|M003-260806 [df46f3705788]
-- type: vless
-  server: 193.163.203.170
-  port: 443
-  udp: true
-  network: tcp
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  name: 🇱🇻LV拉脱维亚丨yoyapai.com
-- server: 172.66.0.1
-  port: 443
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-  name: 🏁RELAY-172.66.0.1-1194
-- type: vless
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  network: ws
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-  name: 🇦🇪AE_2|716KB/s|A003-260618 [6eaf5737334e]
-- type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  skip-cert-verify: true
-  udp: true
-  name: US美国(mibei77.com 米贝节点分享)_16
-- network: ws
-  port: 2052
-  server: freesocks.work
-  sub_tag: M002-260618
-  type: vless
-  udp: true
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
   ws-opts:
     headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net
-  xudp: true
-  packet-encoding: xudp
-  servername: freesocks.work
-  name: 🇩🇪DE_108|324KB/s|M002-260618 [c704e0e17f3b]
-- type: vless
-  server: node-uk.connectsuite.org
-  port: 8443
-  udp: true
-  network: tcp
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-  tls: true
-  servername: node-uk.connectsuite.org
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇬🇧GB_50|396KB/s|P002-260618 [9185c4a9ef02]
-- type: vless
-  server: 67.159.49.26
-  port: 2093
-  udp: true
-  network: tcp
-  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  name: 🇨🇦CA_50|348KB/s|A004-260618 [a74a77bc4648]
-- server: 51.222.155.113
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  name: 🇨🇦CA-51.222.155.113-0450
-- type: vless
-  server: vd2.outlinevpn.cc
-  port: 12213
-  udp: true
-  network: tcp
-  uuid: 7c464358-6c89-4623-bd20-7c7bcd51bc55
-  flow: xtls-rprx-vision
-  tls: true
-  servername: music.yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: kTKM-s7XF0s878Ydmq1KeZFiGT6k1Bw_rLE79s1l1jI
-    short-id: 6a29a03b21
-  name: 🇳🇱NL_303|947KB/s|S001-260618 [841470a3ec70]
-- type: ss
-  server: location8.cpanel-host10.ir
-  port: 56134
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-  udp: true
-  name: 🇧🇬BG_19|513KB/s|B007-260618 [d793f4fc84fa]
-- cipher: rc4-md5
-  obfs: plain
-  obfs-param: f7d23929.douyin.com
-  password: di15PV
-  port: 39266
-  protocol: auth_aes128_md5
-  protocol-param: 23929:563537032
-  server: api.meituan88.com
-  sub_tag: R002-260618
-  type: ssr
-  udp: true
-  name: 🇺🇸US_450|584KB/s|R002-260618 [c8c20681e01a]
-- cipher: rc4-md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f5218522.douyin.com
-  password: di15PV
-  port: 61558
-  protocol: auth_aes128_md5
-  protocol-param: 218522:0hfCJk
-  server: api.meituan88.com
-  sub_tag: R002-260618
-  type: ssr
-  udp: true
-  name: 🇺🇸US_478|64KB/s|R002-260618 [3c282bb5ceae]
-- type: vless
-  server: 195.123.240.65
-  port: 443
-  udp: true
-  network: tcp
-  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
-    short-id: 19296c9f1bf9c7b1
-  name: 🇺🇸US_141|718KB/s|A004-260618 [9d1137930eca]
-- cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  obfs-param: f7d23929.douyin.com
-  password: di15PV
-  port: 29790
-  protocol: auth_aes128_md5
-  protocol-param: 23929:563537032
-  server: api.meituan88.com
-  sub_tag: R002-260618
-  type: ssr
-  udp: true
-  name: 🇺🇸US_451|388KB/s|R002-260618 [882fbd16660b]
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+  name: 🇳🇱NL_185|4.4MB/s|B007-260618 [772ba2c4efbd]
 proxy-groups:
 - name: AUTO
   type: select
   proxies:
-  - United States/Hillsboro [TG]
-  - ❓未知丨yoyapai.com_55
-  - 🇺🇸US_70|909KB/s|A004-260618 [469691940756]
-  - 🇫🇷FR_261|1.4MB/s|B007-260618 [3c68a999fbc8]
-  - 🇺🇸US_345|824KB/s|A004-260618 [030c6ae4a78c]
-  - 🇫🇷FR_53|1.3MB/s|A004-260618 [fc38c1a6c18e]
-  - 🇫🇷FR_73|423KB/s|K001-260618 [7ee212c10600]
-  - 🇫🇷FR_60|751KB/s|P002-260618 [832b63a63111]
-  - 🇫🇷FR_156|746KB/s|A004-260618 [46de6a0178f0]
-  - 🇫🇷FR_145|975KB/s|M003-260806 [084c103d595e]
-  - 🇫🇷FR_136|1.4MB/s [f91f8159ead9]
-  - 🇫🇷FR_155|954KB/s|M002-260618 [9e7ce0ce2248]
   - 🇫🇷FR_43|851KB/s|A004-260618 [4645cf60e6be]
+  - 🇺🇸US_451|388KB/s|R002-260618 [882fbd16660b]
+  - 🇫🇷FR_155|954KB/s|M002-260618 [9e7ce0ce2248]
+  - 🇫🇷FR_261|1.4MB/s|B007-260618 [3c68a999fbc8]
+  - 🇫🇷FR_73|423KB/s|K001-260618 [7ee212c10600]
+  - ❓未知丨yoyapai.com_55
   - 🇫🇷FR_201|843KB/s|S004-260618 [e18d86f96365]
-  - 🇺🇸US_474|616KB/s|R002-260618 [682de90470ca]
-  - 🇺🇸US美国丨yoyapai.com_15
+  - 🇫🇷FR_53|1.3MB/s|A004-260618 [fc38c1a6c18e]
   - 🇫🇷FR_61|1.4MB/s|M003-260806 [273b0a6798e5]
-  - 🇫🇷FR_94|753KB/s|B007-260618 [39e764cc5f1e]
+  - 🇫🇷FR_156|746KB/s|A004-260618 [46de6a0178f0]
+  - United States/Hillsboro [TG]
   - 🇫🇷FR_276|2.8MB/s|A004-260618 [bc64588db53e]
-  - 🇫🇷FR_236|615KB/s|K001-260618 [ec92deb18f1d]
-  - 🇺🇸US_434|552KB/s|M003-260806 [e4ae383f5861]
-  - 🇺🇸US_489|855KB/s|B007-260618 [bc3890462092]
-  - 🇨🇦CA_6|1.5MB/s|A004-260618 [ad51eeb021eb]
-  - 🇺🇸US_449|613KB/s|R002-260618 [9958c86e78ec]
-  - 🇺🇸US_467|804KB/s|C002-260622 [c996607c4f38]
-  - 🇯🇵JP-191.223.221.53-0194
-  - 🇺🇸US_253|1.5MB/s|A004-260618 [7b3d5e5048d2]
+  - 🇺🇸US_70|909KB/s|A004-260618 [469691940756]
+  - 🇺🇸US_345|824KB/s|A004-260618 [030c6ae4a78c]
+  - 🇫🇷FR_60|751KB/s|P002-260618 [832b63a63111]
+  - 🇺🇸US美国丨yoyapai.com_15
   - 🇺🇸US-15.204.247.206-0279
-  - 🇯🇵JP_31|563KB/s [55d29455977c]
-  - 🇬🇧GB-82.38.31.35-0139
-  - 🇫🇷FR_21|758KB/s|F003-260618 [082024336835]
+  - 🇺🇸US_450|584KB/s|R002-260618 [c8c20681e01a]
+  - 🇺🇸US_253|1.5MB/s|A004-260618 [7b3d5e5048d2]
+  - 🇨🇦CA_6|1.5MB/s|A004-260618 [ad51eeb021eb]
+  - 🏁RELAY-172.66.0.1-1194
+  - 🇺🇸US_489|855KB/s|B007-260618 [bc3890462092]
+  - 🇪🇸ES-5.188.181.201-0173 | clashnodefree.com
   - 🇬🇧GB-82.38.31.3-0158
   - 🇬🇧GB-82.38.31.42-0238
+  - ❓Other_3|305KB/s|A004-260618 [8eee8687bfd8]
+  - 🇯🇵JP_31|563KB/s [55d29455977c]
   - 🇩🇪DE_129|3.5MB/s|A004-260618 [d56c8f627b94]
+  - 🇬🇧GB-82.38.31.35-0139
   - 🇸🇬SG_1|862KB/s|C002-260622 [0402c143ab8a]
   - 🇸🇬SG_9|949KB/s|A004-260618 [0078dd792eff]
-  - 🇯🇵JP_10|319KB/s|C002-260622 [5c8518ecb814]
-  - 🇪🇸ES-5.188.181.201-0173 | clashnodefree.com
-  - 🇸🇬SG_51|824KB/s|A004-260618 [0298ea3f8227]
-  - 🇹🇼TW_40|683KB/s|G001-260618 [0c0266a17437]
-  - 🇭🇰HK_59|677KB/s|R002-260618 [cd15849f5f42]
-  - 🇳🇱NL_156|3.8MB/s|V007-260618 [9db6b1a2f44d]
-  - 🇷🇺 Russia [TG]
-  - 🇫🇷FR_258|2.2MB/s|B007-260618 [dcc4b8c49f01]
-  - 🇫🇷FR_122|5.6MB/s|V003-260618 [c39d4c463135]
-  - 🇬🇧GB_22|4.2MB/s|A004-260618 [e912ba1f4fee]
   - 🇪🇸ES_1|2.1MB/s|A004-260618 [f4a406c4202c]
+  - 🇸🇬SG_51|824KB/s|A004-260618 [0298ea3f8227]
+  - 🇳🇱NL_156|3.8MB/s|V007-260618 [9db6b1a2f44d]
+  - 🇬🇧GB_22|4.2MB/s|A004-260618 [e912ba1f4fee]
+  - 🇫🇷FR_122|5.6MB/s|V003-260618 [c39d4c463135]
+  - 🇭🇰HK_59|677KB/s|R002-260618 [cd15849f5f42]
+  - 🏁RELAY-162.159.253.41-1037
+  - US美国(mibei77.com 米贝节点分享)_16
+  - 🇫🇷FR_283|2.7MB/s|M003-260806 [df46f3705788]
+  - 🇷🇴RO_99|1.2MB/s|A004-260618 [08fd904781d0]
+  - 🇵🇱PL_23|3.3MB/s|P002-260618 [07605fe0fcd0]
+  - 🇯🇵JP_27|104KB/s|C002-260622 [7bb112b0be00]
+  - 🇺🇸US_449|613KB/s|R002-260618 [9958c86e78ec]
+  - 🇳🇱NL_291|1.7MB/s|M001-260618 [003d743407b2]
+  - 🇺🇸US_141|718KB/s|A004-260618 [9d1137930eca]
+  - 🇺🇸US_478|64KB/s|R002-260618 [3c282bb5ceae]
+  - 🇨🇦CA_50|348KB/s|A004-260618 [a74a77bc4648]
+  - 🇩🇪DE_108|324KB/s|M002-260618 [c704e0e17f3b]
+  - 🇺🇸US_467|804KB/s|C002-260622 [c996607c4f38]
+  - 🇱🇻LV拉脱维亚丨yoyapai.com
+  - 🇦🇪AE_2|716KB/s|A003-260618 [6eaf5737334e]
+  - 🇺🇸US_474|616KB/s|R002-260618 [682de90470ca]
+  - 🇸🇬SG_40|94KB/s|A004-260618 [de3718db92ca]
+  - 🇯🇵JP_10|319KB/s|C002-260622 [5c8518ecb814]
+  - 🇨🇳CN-47.76.57.83-0615
+  - 🇬🇧GB_50|396KB/s|P002-260618 [9185c4a9ef02]
   - 🇩🇪DE_25|1.1MB/s|R002-260618 [b20796e6fc39]
   - 🇬🇧GB-82.38.31.203-0117
-  - 🇳🇱NL_291|1.7MB/s|M001-260618 [003d743407b2]
-  - 🇵🇱PL_23|3.3MB/s|P002-260618 [07605fe0fcd0]
-  - 🇷🇴RO_99|1.2MB/s|A004-260618 [08fd904781d0]
-  - 🇸🇬SG_40|94KB/s|A004-260618 [de3718db92ca]
-  - 🇺🇸US_477|126KB/s|C002-260622 [01b35806a8e2]
-  - 🇯🇵JP_27|104KB/s|C002-260622 [7bb112b0be00]
-  - 🇫🇷FR_283|2.7MB/s|M003-260806 [df46f3705788]
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🏁RELAY-172.66.0.1-1194
-  - 🇦🇪AE_2|716KB/s|A003-260618 [6eaf5737334e]
-  - US美国(mibei77.com 米贝节点分享)_16
-  - 🇩🇪DE_108|324KB/s|M002-260618 [c704e0e17f3b]
-  - 🇬🇧GB_50|396KB/s|P002-260618 [9185c4a9ef02]
-  - 🇨🇦CA_50|348KB/s|A004-260618 [a74a77bc4648]
-  - 🇨🇦CA-51.222.155.113-0450
-  - 🇳🇱NL_303|947KB/s|S001-260618 [841470a3ec70]
-  - 🇧🇬BG_19|513KB/s|B007-260618 [d793f4fc84fa]
-  - 🇺🇸US_450|584KB/s|R002-260618 [c8c20681e01a]
-  - 🇺🇸US_478|64KB/s|R002-260618 [3c282bb5ceae]
-  - 🇺🇸US_141|718KB/s|A004-260618 [9d1137930eca]
-  - 🇺🇸US_451|388KB/s|R002-260618 [882fbd16660b]
+  - 🇳🇱NL_185|4.4MB/s|B007-260618 [772ba2c4efbd]
 rules:
 - MATCH,AUTO
