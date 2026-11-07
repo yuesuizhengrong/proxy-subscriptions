@@ -19,16 +19,25 @@ proxies:
   password: shadowsocks
   udp: true
   name: 🇺🇸US-37.19.198.160-0146
-- type: trojan
-  server: 216.152.156.81
-  port: 443
+- encryption: none
+  network: ws
+  port: 2052
+  server: 104.18.109.147
+  sub_tag: M003-260806
+  type: vless
   udp: true
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  servername: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  name: ❓Other_73|281KB/s|A004-260618 [cfa8f4af502b]
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /Telegram-XV2ry2
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  xudp: true
+  packet-encoding: xudp
+  name: 🇸🇬SG_5|509KB/s|M003-260806 [33fb1cb3ecb2]
 - client-fingerprint: chrome
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
@@ -40,6 +49,47 @@ proxies:
   type: trojan
   udp: true
   name: 🇺🇸US_42|597KB/s|C002-260622 [097fe1a50adf]
+- network: ws
+  port: 8880
+  server: 92.53.188.30
+  sub_tag: C002-260622
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime18.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  name: 🇺🇸US_13|446KB/s|C002-260622 [0b87eaac8a2c]
+- type: trojan
+  server: 216.152.156.81
+  port: 443
+  udp: true
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  servername: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  name: ❓Other_73|281KB/s|A004-260618 [cfa8f4af502b]
+- alterId: 0
+  cipher: auto
+  network: tcp
+  port: 18000
+  server: 169.197.142.22
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+  packet-encoding: xudp
+  servername: v2ray1.dozapp.xyz
+  name: ❓Other_75|349KB/s|M003-260806 [056671ed143a]
 - type: ss
   server: 149.40.57.138
   port: 19999
@@ -47,13 +97,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
   name: 🇺🇸US-149.40.57.138-2465
-- server: 170.101.101.67
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: false
-  name: 🇺🇸US-170.101.101.67-0152
 - client-fingerprint: chrome
   password: 242a3d8eee5e4ed1a6bfa4141d549a25
   port: 443
@@ -65,25 +108,67 @@ proxies:
   udp: true
   network: tcp
   name: ❓Other_76|229KB/s|M003-260806 [012980e5465f]
-- type: vless
-  server: 169.40.42.90
+- server: 170.101.101.67
   port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
+  skip-cert-verify: false
+  name: 🇺🇸US-170.101.101.67-0241
+- type: vless
+  server: 15.204.97.197
+  port: 23576
+  udp: true
+  network: tcp
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  name: 🇺🇸US_48|364KB/s|B007-260618 [8e309b6da610]
+- type: vless
+  server: 15.204.97.206
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   udp: true
   flow: xtls-rprx-vision
   tls: true
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  client-fingerprint: chrome
+  name: 🇺🇸 United States/Hillsboro [TG]
+- type: vless
+  server: 169.40.42.202
+  port: 443
+  udp: true
+  network: tcp
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
   servername: yahoo.com
+  client-fingerprint: chrome
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-  client-fingerprint: chrome
-  name: '🇩🇪 Germany [TG] #3'
+  name: 'Germany [TG] #3'
+- cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  sub_tag: S004-260618
+  type: ss
+  udp: true
+  name: 🇳🇱NL_25|290KB/s|S004-260618 [08b0a3459590]
 - server: 82.38.31.203
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-  name: 🇬🇧GB-82.38.31.203-0156
+  name: 🇬🇧GB-82.38.31.203-0094
 - type: ss
   server: 82.38.31.35
   port: 8080
@@ -99,20 +184,12 @@ proxies:
   type: ss
   udp: true
   name: 🇳🇱NL_10|269KB/s|B007-260618 [07c23c58b49f]
-- cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.223
-  sub_tag: S004-260618
-  type: ss
-  udp: true
-  name: 🇳🇱NL_25|290KB/s|S004-260618 [08b0a3459590]
 - server: 23.157.88.43
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: 🇩🇪DE-23.157.88.43-2406
+  name: 🇩🇪DE-23.157.88.43-0145
 - cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -121,30 +198,36 @@ proxies:
   type: ss
   udp: true
   name: ❓Other_122|315KB/s|M003-260806 [017bcc751c01]
-- type: vless
-  server: 15.204.97.197
-  port: 23576
+- type: ss
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
   udp: true
-  network: tcp
+  tls: false
+  skip-cert-verify: false
+  name: ❓未知丨yoyapai.com (8)
+- cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  name: 🇬🇧GB_1|89KB/s|A004-260618 [07aa7760ced3]
+- type: vless
+  server: 51.158.206.8
+  port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
   flow: xtls-rprx-vision
   tls: true
   servername: fuck.rkn
-  client-fingerprint: chrome
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
-  name: 🇺🇸US_48|364KB/s|B007-260618 [8e309b6da610]
-- server: 109.104.153.43
-  port: 33336
-  type: ssr
-  cipher: chacha20-ietf
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  name: 🇳🇱NL-109.104.153.43-0263
+  client-fingerprint: chrome
+  name: '🇳🇱 The Netherlands/Haarlem [TG] #5'
 - type: vless
   server: ww13.levikogjgfdd.ir
   port: 23576
@@ -159,29 +242,19 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   name: ❓Other_46|146KB/s|M002-260618 [7a55752c03d8]
-- type: ss
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  name: ❓未知丨yoyapai.com (8)
 - type: vless
-  server: 45.129.242.56
-  port: 443
+  server: 51.158.206.12
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   udp: true
-  network: tcp
-  uuid: ebdfaf99-41d8-4e48-8196-d54510ffb556
   flow: xtls-rprx-vision
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: fuck.rkn
   reality-opts:
-    public-key: YURKlEQ3rap4KOXXGsVFZyYev2oDU2gCEbNTXPdKWRY
-    short-id: abcdef
-  name: 🇩🇪DE德国丨yoyapai.com
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+  name: '🇳🇱 The Netherlands/Haarlem [TG] #7'
 - client-fingerprint: chrome
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
@@ -193,14 +266,6 @@ proxies:
   type: trojan
   udp: true
   name: ❓Other_108|208KB/s|C002-260622 [00b16ee507c6]
-- cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.18
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-  name: 🇬🇧GB_1|89KB/s|A004-260618 [07aa7760ced3]
 - type: vless
   server: 45.129.242.56
   port: 443
@@ -231,6 +296,19 @@ proxies:
     short-id: 3ba10d9ce34380c9
   name: ❓Other_59|115KB/s|A004-260618 [1e53f49befe5]
 - type: vless
+  server: 132.243.167.147
+  port: 443
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: ch1.japancase.site
+  reality-opts:
+    public-key: nIXZmF729Mzn5hq8aWSxsv8wBDawVYmFNzwBytwYfm0
+    short-id: aafcd65859993991
+  client-fingerprint: chrome
+  name: 🇬🇧 United Kingdom/London [TG]
+- type: vless
   server: 212.227.235.66
   port: 2053
   udp: true
@@ -253,13 +331,23 @@ proxies:
   udp: true
   network: tcp
   name: ❓Other_99|1.8MB/s|M003-260806 [0665db1a3c6e]
+- server: 109.104.153.43
+  port: 33336
+  type: ssr
+  cipher: chacha20-ietf
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  name: 🇳🇱NL-109.104.153.43-5292
 - server: 149.28.130.108
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   skip-cert-verify: false
-  name: 🇸🇬SG-149.28.130.108-0210
+  name: 🇸🇬SG-149.28.130.108-0138
 - type: vless
   server: node-uk.connectsuite.org
   port: 8443
@@ -273,6 +361,12 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: ❓Other_50|313KB/s|C002-260622 [53615d0e808e]
+- server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  name: 🇺🇸US-15.204.247.206-5380
 - type: vless
   server: 193.163.203.170
   port: 443
@@ -301,18 +395,6 @@ proxies:
       Host: v2ray1.dozapp.xyz
   tls: true
   name: 🏁RELAY-172.67.161.144-1830 | clashnodefree.com
-- server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  name: 🇺🇸US-15.204.247.206-0258
-- server: 51.222.155.113
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  name: 🇨🇦CA-51.222.155.113-0265
 - type: vless
   server: 104.18.42.98
   port: 443
@@ -327,74 +409,53 @@ proxies:
     headers:
       Host: jp3.yohototo.top
   name: DE德国(mibei77.com 米贝节点分享)
-- alterId: 0
-  cipher: auto
-  network: tcp
-  port: 18000
-  server: 169.197.142.22
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-  packet-encoding: xudp
-  servername: v2ray1.dozapp.xyz
-  name: ❓Other_75|349KB/s|M003-260806 [056671ed143a]
-- network: ws
-  port: 2052
-  server: 172.64.229.129
-  sub_tag: A001-260618
-  type: vless
-  udp: true
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  ws-opts:
-    headers:
-      Host: eu02.123450908.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /rain1226
-  xudp: true
-  packet-encoding: xudp
-  name: 🇩🇪DE_16|73KB/s|A001-260618 [9622796f0dec]
+- server: 51.222.155.113
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  name: 🇨🇦CA-51.222.155.113-0250
 proxy-groups:
 - name: AUTO
   type: select
   proxies:
   - ❓Other_74|223KB/s|A004-260618 [02626155c3aa]
   - 🇺🇸US-37.19.198.160-0146
-  - ❓Other_73|281KB/s|A004-260618 [cfa8f4af502b]
+  - 🇸🇬SG_5|509KB/s|M003-260806 [33fb1cb3ecb2]
   - 🇺🇸US_42|597KB/s|C002-260622 [097fe1a50adf]
+  - 🇺🇸US_13|446KB/s|C002-260622 [0b87eaac8a2c]
+  - ❓Other_73|281KB/s|A004-260618 [cfa8f4af502b]
+  - ❓Other_75|349KB/s|M003-260806 [056671ed143a]
   - 🇺🇸US-149.40.57.138-2465
-  - 🇺🇸US-170.101.101.67-0152
   - ❓Other_76|229KB/s|M003-260806 [012980e5465f]
-  - '🇩🇪 Germany [TG] #3'
-  - 🇬🇧GB-82.38.31.203-0156
+  - 🇺🇸US-170.101.101.67-0241
+  - 🇺🇸US_48|364KB/s|B007-260618 [8e309b6da610]
+  - 🇺🇸 United States/Hillsboro [TG]
+  - 'Germany [TG] #3'
+  - 🇳🇱NL_25|290KB/s|S004-260618 [08b0a3459590]
+  - 🇬🇧GB-82.38.31.203-0094
   - 🇬🇧GB-82.38.31.35-0240
   - 🇳🇱NL_10|269KB/s|B007-260618 [07c23c58b49f]
-  - 🇳🇱NL_25|290KB/s|S004-260618 [08b0a3459590]
-  - 🇩🇪DE-23.157.88.43-2406
+  - 🇩🇪DE-23.157.88.43-0145
   - ❓Other_122|315KB/s|M003-260806 [017bcc751c01]
-  - 🇺🇸US_48|364KB/s|B007-260618 [8e309b6da610]
-  - 🇳🇱NL-109.104.153.43-0263
-  - ❓Other_46|146KB/s|M002-260618 [7a55752c03d8]
   - ❓未知丨yoyapai.com (8)
-  - 🇩🇪DE德国丨yoyapai.com
-  - ❓Other_108|208KB/s|C002-260622 [00b16ee507c6]
   - 🇬🇧GB_1|89KB/s|A004-260618 [07aa7760ced3]
+  - '🇳🇱 The Netherlands/Haarlem [TG] #5'
+  - ❓Other_46|146KB/s|M002-260618 [7a55752c03d8]
+  - '🇳🇱 The Netherlands/Haarlem [TG] #7'
+  - ❓Other_108|208KB/s|C002-260622 [00b16ee507c6]
   - 🇩🇪DE德国丨yoyapai.com (36)
   - ❓Other_59|115KB/s|A004-260618 [1e53f49befe5]
+  - 🇬🇧 United Kingdom/London [TG]
   - 🇪🇸ES_1|278KB/s|A004-260618 [f4a406c4202c]
   - ❓Other_99|1.8MB/s|M003-260806 [0665db1a3c6e]
-  - 🇸🇬SG-149.28.130.108-0210
+  - 🇳🇱NL-109.104.153.43-5292
+  - 🇸🇬SG-149.28.130.108-0138
   - ❓Other_50|313KB/s|C002-260622 [53615d0e808e]
+  - 🇺🇸US-15.204.247.206-5380
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🏁RELAY-172.67.161.144-1830 | clashnodefree.com
-  - 🇺🇸US-15.204.247.206-0258
-  - 🇨🇦CA-51.222.155.113-0265
   - DE德国(mibei77.com 米贝节点分享)
-  - ❓Other_75|349KB/s|M003-260806 [056671ed143a]
-  - 🇩🇪DE_16|73KB/s|A001-260618 [9622796f0dec]
+  - 🇨🇦CA-51.222.155.113-0250
 rules:
 - MATCH,AUTO
