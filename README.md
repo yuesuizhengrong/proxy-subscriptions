@@ -2,7 +2,7 @@
 
 These subscription files and their URLs are public. The collector source code is private.
 
-Updated: 2026-11-13T19:38:41+00:00. Working nodes: 515.
+Updated: 2026-11-14T01:08:23+00:00. Working nodes: 564.
 
 | Format | CDN | Alternate CDN | GitHub Pages |
 | --- | --- | --- | --- |
@@ -12,6 +12,6 @@ Updated: 2026-11-13T19:38:41+00:00. Working nodes: 515.
 | clash.yaml | [Download](https://fastly.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/clash.yaml) | [Download](https://cdn.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/clash.yaml) | [Download](https://yuesuizhengrong.github.io/proxy-subscriptions/clash.yaml) |
 | v2ray.txt | [Download](https://fastly.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/v2ray.txt) | [Download](https://cdn.jsdelivr.net/gh/yuesuizhengrong/proxy-subscriptions@main/v2ray.txt) | [Download](https://yuesuizhengrong.github.io/proxy-subscriptions/v2ray.txt) |
 
-Updates run every three hours. Prefer GitHub Pages for the freshest published output.
+Updates run every four hours. Prefer GitHub Pages for the freshest published output.
 CDN cache refreshes are requested after publication, but mirrors may lag.
 Access depends on your carrier and region; try another address if one fails.
