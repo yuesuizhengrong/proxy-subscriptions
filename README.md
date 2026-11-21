@@ -2,7 +2,7 @@
 
 These subscription files and their URLs are public. The collector source code is private.
 
-Updated: 2026-11-20T16:59:17+00:00. Working nodes: 435.
+Updated: 2026-11-21T01:29:25+00:00. Working nodes: 748.
 
 | Format | CDN | Alternate CDN | GitHub Pages |
 | --- | --- | --- | --- |
